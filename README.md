@@ -70,8 +70,7 @@ oncotarget-scout/
     README.md                how the pipeline is meant to run
   results/                   generated tables and figures land here (not yet populated)
   environment.yml            Python environment for the single cell and scoring steps
-  LICENSE
-```
+  `
 
 ## Data sources (all public)
 
@@ -96,7 +95,3 @@ Raw data files are not committed to this repository. `data/README.md` records th
 - TCGA treatment data is incomplete, so immunotherapy resistance is represented by the mutation subgroup, which is the clinically used proxy, and not by measured response in this cohort.
 - Cell line dependency is evidence about cell lines. The validation plan exists because this evidence has to be re-earned in a lab.
 
-## Author
-
-Claire Kim, MS in Automated Sciences, Carnegie Mellon University (in progress).
-Related work: Gene-ius (variant interpretation agent), Cancer Screening Cost-Effectiveness Model (MCED, lung cancer model), LLM agent for instrument protocols (Isayev Lab).
