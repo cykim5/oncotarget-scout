@@ -1,0 +1,17 @@
+name: oncotarget-scout
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - lifelines          # Cox models and Kaplan-Meier (survival layer)
+  - scanpy             # single cell layer (Phase 3)
+  - anndata
+  - matplotlib
+  - seaborn
+  # R side is managed separately (renv or session info logged per run):
+  # TCGAbiolinks, DESeq2, clusterProfiler, msigdbr, SummarizedExperiment

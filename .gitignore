@@ -1,0 +1,22 @@
+# Data: never commit raw or processed datasets (see data/README.md)
+data/raw/
+data/processed/
+*.h5ad
+*.rds
+
+# Generated results are committed selectively; large intermediates are not
+results/**/*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
