@@ -4,7 +4,7 @@
 
 A reproducible, multi-modal target prioritization project for one specific group of lung adenocarcinoma (LUAD) patients: tumors with STK11 and/or KEAP1 mutations. These tumors are immunologically cold, respond poorly to PD-1/PD-L1 immunotherapy and to chemotherapy, have worse outcomes across treatments, and have no approved therapy that targets the alteration itself. They are a real, named unmet need in the clinic, not a textbook example.
 
-Status: Phase 0, project scaffold and design. No results yet. Results will be added only when the analysis runs, with the code that produced them.
+Status: Phase 1 complete (2026-11-11). The full LUAD cohort analysis (differential expression, Hallmark GSEA, survival layer, partial ranking, answer key check) is in results/, written up in results/phase1-report.md with methods and deviations in results/run_log.md. Phase 2 (STK11/KEAP1 subgroup, DepMap dependency, safety layer) is next.
 
 ## Research question
 
@@ -70,7 +70,7 @@ oncotarget-scout/
     README.md                how the pipeline is meant to run
   results/                   generated tables and figures land here (not yet populated)
   environment.yml            Python environment for the single cell and scoring steps
-  `
+```
 
 ## Data sources (all public)
 
@@ -94,4 +94,3 @@ Raw data files are not committed to this repository. `data/README.md` records th
 - Public cohort data is retrospective and mostly from one population mix. Findings are hypotheses for experiments, not clinical claims.
 - TCGA treatment data is incomplete, so immunotherapy resistance is represented by the mutation subgroup, which is the clinically used proxy, and not by measured response in this cohort.
 - Cell line dependency is evidence about cell lines. The validation plan exists because this evidence has to be re-earned in a lab.
-
