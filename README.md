@@ -4,7 +4,7 @@
 
 A reproducible, multi-modal target prioritization project for one specific group of lung adenocarcinoma (LUAD) patients: tumors with STK11 and/or KEAP1 mutations. These tumors are immunologically cold, respond poorly to PD-1/PD-L1 immunotherapy and to chemotherapy, have worse outcomes across treatments, and have no approved therapy that targets the alteration itself. They are a real, named unmet need in the clinic, not a textbook example.
 
-Status: Phase 1 complete (2026-11-11). The full LUAD cohort analysis (differential expression, Hallmark GSEA, survival layer, partial ranking, answer key check) is in results/, written up in results/phase1-report.md with methods and deviations in results/run_log.md. Phase 2 (STK11/KEAP1 subgroup, DepMap dependency, safety layer) is next.
+Status: Phase 2 complete (2026-11-12). The STK11/KEAP1 subgroup ranking across four layers (expression incl. mutant vs wild type, DepMap dependency, GTEx safety, subgroup survival) is in results/, written up in results/phase2-report.md, with methods and deviations in results/run_log.md. The decision shortlist (dependency-supported top 20, led by INTS6 and NFE2L2) is in results/tables/shortlist_dependency_supported.csv. Phase 1's fold change artifact is fixed by LFC shrinkage; see the dated correction note in results/phase1-report.md. Phase 3 (single cell layer, time split check, reason cards, validation plan) is next.
 
 ## Research question
 
@@ -68,7 +68,9 @@ oncotarget-scout/
     02_differential_expression.R  DESeq2 tumor vs normal and mutant vs wild type (template)
     03_survival_and_scoring.py    survival association and score assembly (template)
     README.md                how the pipeline is meant to run
-  results/                   generated tables and figures land here (not yet populated)
+    phase1_python/           the Python route that actually ran Phase 1
+    phase2_python/           the Python route that ran Phase 2
+  results/                   generated tables, figures, and reports (Phase 1 and 2 complete)
   environment.yml            Python environment for the single cell and scoring steps
 ```
 
