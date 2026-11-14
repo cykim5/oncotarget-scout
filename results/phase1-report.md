@@ -2,6 +2,42 @@
 
 **In one sentence:** we ran the first real analysis for OncoTarget Scout on public lung cancer data from 528 tumors and 59 healthy lung samples, ranked 35,273 genes with the first two of our five evidence layers, and then graded the ranking against three genes we know matter. The famous genes did fine, not great, and the number one hit turned out to be a mirage. Both of those results are useful, and this report explains why.
 
+## Correction, 2026-11-12 (Phase 2 shrinkage fix)
+
+The results below are the original Phase 1 v1 run, kept intact. During
+Phase 2 we fixed the fold change problem this report discloses: the
+tumor vs normal fold changes were re-estimated with apeglm shrinkage
+(pydeseq2 `lfc_shrink`, Cauchy prior; p values unchanged), and the
+Phase 1 partial ranking was rebuilt from the shrunk values. The
+rebuilt table is `results/tables/target_scores_phase1_shrunk.csv`.
+
+What changed:
+
+- MAGEC1's log2 fold change fell from 43.28 to 8.20, and MAGEC1 fell
+  from rank 1 to rank 145 of 35,273. The artifact is gone. The new
+  rank 1 is PSG1 (shrunk log2 fold change 12.68, the new scale
+  maximum), followed by GAGE2A and DEFA5. The maximum |log2 fold
+  change| in the whole table is now 12.68, and the count of
+  significant genes is unchanged at 25,893, as it should be, since
+  shrinkage does not touch p values.
+- The answer key ranks got worse, and that is the honest part of this
+  correction. In the shrunk rebuild, KRAS ranks 2,633rd, EGFR 5,263rd,
+  and CD274 8,364th, against 155th, 282nd, and 457th in v1. The v1
+  ranks were partly flattered by the artifact: with MAGEC1's 43.28
+  stretching the scale, every other gene's expression score was
+  compressed (FAM83A's 6.79 became 0.157), which let the three answer
+  key genes' second layer, survival, lift them above most
+  expression-only genes. With an honest scale, expression-only genes
+  score up to 1.0 on their own layer, and the answer key genes' small
+  fold changes place them mid-pack. An expression-first score cannot
+  crown mutation-driven genes. That conclusion, already stated in v1,
+  is stronger in v2, and it is the reason Phase 2 adds the dependency
+  layer rather than tuning the expression score.
+
+Nothing else in this report changes. The pathway results, the survival
+models, and the MAGEC1 Kaplan-Meier figure are unaffected by the
+shrinkage fix.
+
 ## The question
 
 Some lung cancers carry mutations in two genes, STK11 and KEAP1. Those tumors tend to ignore immunotherapy, respond poorly to other treatments too, and no approved drug targets the mutation itself. This project asks: which genes should a drug aim at for these patients?
