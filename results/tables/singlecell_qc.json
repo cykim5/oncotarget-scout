@@ -1,0 +1,26 @@
+{
+  "dataset_id": "4ca422ae-e4ad-4884-9073-7c3799cd9143",
+  "dataset_cells": 35954,
+  "cells_after_qc": 30055,
+  "cells_used": 1953,
+  "disease_note": "restricted to LUAD cells by per-cell disease label: 2558 of 35954 cells",
+  "donor_note": "LUAD cells used come from 2 donor(s): 4 (1352), 5 (601)",
+  "counts_are_raw": true,
+  "cell_type_column": "cell_type",
+  "qc_thresholds": {
+    "min_total_counts": 500,
+    "min_genes_detected": 200
+  },
+  "min_gene_total_counts_for_share": 20,
+  "genes_gated_low_counts": 4603,
+  "median_total_counts": 1150.0,
+  "median_genes_detected": 824,
+  "n_cells_per_compartment": {
+    "malignant": 756,
+    "immune": 953,
+    "stromal": 152,
+    "other": 92
+  },
+  "genes_in_universe": 16392,
+  "genes_with_malignant_share": 13115
+}
