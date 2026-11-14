@@ -4,7 +4,7 @@
 
 A reproducible, multi-modal target prioritization project for one specific group of lung adenocarcinoma (LUAD) patients: tumors with STK11 and/or KEAP1 mutations. These tumors are immunologically cold, respond poorly to PD-1/PD-L1 immunotherapy and to chemotherapy, have worse outcomes across treatments, and have no approved therapy that targets the alteration itself. They are a real, named unmet need in the clinic, not a textbook example.
 
-Status: Phase 2 complete (2026-11-12). The STK11/KEAP1 subgroup ranking across four layers (expression incl. mutant vs wild type, DepMap dependency, GTEx safety, subgroup survival) is in results/, written up in results/phase2-report.md, with methods and deviations in results/run_log.md. The decision shortlist (dependency-supported top 20, led by INTS6 and NFE2L2) is in results/tables/shortlist_dependency_supported.csv. Phase 1's fold change artifact is fixed by LFC shrinkage; see the dated correction note in results/phase1-report.md. Phase 3 (single cell layer, time split check, reason cards, validation plan) is next.
+Status: Phase 3 complete (2026-11-14). All five evidence layers are in: the five-layer subgroup ranking is in results/, written up in results/phase3-report.md, with methods and deviations in results/run_log.md. The decision shortlist (dependency-supported top 20, led by INTS6, NFE2L2, and UXS1) is in results/tables/shortlist_dependency_supported_phase3.csv, with one plain-language reason card per gene in results/reason_cards/ and the validation experiment plan in docs/validation-plan.md. The time split check against DepMap 20Q2 is in results/timesplit_check.md. Phase 2's report and shortlist stay in place as the four-layer record.
 
 ## Research question
 
@@ -70,7 +70,8 @@ oncotarget-scout/
     README.md                how the pipeline is meant to run
     phase1_python/           the Python route that actually ran Phase 1
     phase2_python/           the Python route that ran Phase 2
-  results/                   generated tables, figures, and reports (Phase 1 and 2 complete)
+    phase3_python/           the Python route that ran Phase 3
+  results/                   generated tables, figures, and reports (Phase 1, 2, and 3 complete)
   environment.yml            Python environment for the single cell and scoring steps
 ```
 
@@ -88,7 +89,7 @@ Raw data files are not committed to this repository. `data/README.md` records th
 
 - Phase 1, MVP: TCGA download, differential expression, pathway analysis, survival association, first full cohort ranking, answer key check. R plus Python.
 - Phase 2: mutant vs wild type analysis for the STK11/KEAP1 subgroup, DepMap dependency layer, safety layer, subgroup ranking.
-- Phase 3: single cell layer, time split check, reason cards, validation experiment plan.
+- Phase 3: single cell layer, time split check, reason cards, validation experiment plan. Complete.
 - Phase 4 (optional): a small LLM interface that answers a biologist's question about any ranked gene by citing the project's own result tables.
 
 ## Limits, stated plainly
