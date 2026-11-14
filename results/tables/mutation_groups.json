@@ -1,0 +1,12 @@
+{
+  "n_primary_tumors": 528,
+  "n_with_mutation_data": 522,
+  "n_without_mutation_data": 6,
+  "group_sizes": {
+    "wt": 379,
+    "stk11_only": 48,
+    "keap1_only": 70,
+    "both": 25
+  },
+  "rule": "non-silent mutations only; groups under 20 tumors are not analyzed alone"
+}
