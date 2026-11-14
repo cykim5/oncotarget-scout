@@ -1,0 +1,20 @@
+author_label,compartment,n_cells
+capillary endothelial cell,stromal,654
+classical monocyte,immune,1343
+plasmacytoid dendritic cell,immune,1517
+smooth muscle cell,stromal,1471
+malignant cell,malignant,2928
+epithelial cell of lung,other,648
+cytotoxic T cell,immune,3567
+natural killer cell,immune,1021
+"CD4-positive, alpha-beta memory T cell",immune,2053
+natural T-regulatory cell,immune,3531
+conventional dendritic cell,immune,233
+fibroblast of lung,stromal,2445
+pericyte,stromal,201
+plasma cell,immune,7598
+macrophage,immune,4611
+"dendritic cell, human",immune,284
+mast cell,immune,439
+granulocyte,immune,184
+"activated CD8-positive, alpha-beta T cell",immune,1226
