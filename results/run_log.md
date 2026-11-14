@@ -187,3 +187,137 @@ deliberate and recorded here.**
   CALCA; dependency-supported shortlist led by INTS6, NFE2L2,
   SPRR1B, UXS1, NCAPG2 (13 of 20 robust); answer key v2 KRAS
   #4993, EGFR #6166, CD274 #5646 of 28,328.
+
+## 2026-11-13/14, Phase 3 (single cell layer, time split, reason cards, validation plan)
+
+**Scripts.** `scripts/phase3_python/00_download_phase3.py`,
+`01_singlecell.py`, `02_scoring_v3.py`, `03_shortlist_v3.py`,
+`04_timesplit.py`, `05_reason_cards.py`, `06_validation_plan.py`.
+See `scripts/phase3_python/README.md` for what each script does.
+
+**Data sources (all downloaded 2026-11-13/14).**
+- CZ CELLxGENE dataset 4ca422ae-e4ad-4884-9073-7c3799cd9143
+  (Chromium 10x, lung adenocarcinoma and squamous cell lung
+  carcinoma, 4 donors, bioRxiv 2024.11.01.621259), from the
+  collection "Transcriptome Analysis of Archived Tumor Tissues by
+  Visium, GeoMx DSP, and Chromium Methods Reveals Inter- and
+  Intra-Patient Heterogeneity": `luad_sc_4ca422ae.h5ad`
+  (502,582,278 bytes, size verified; CELLxGENE publishes no
+  checksum). Chosen because its author cell type labels include an
+  explicit malignant cell compartment; all 406 collections were
+  scanned and 14 LUAD datasets matched. The runner-up dataset
+  (229e74ee, 117,266 cells, DOI 10.1186/s40164-025-00740-6) has no
+  explicit malignant label. Multi-million-cell atlases were too
+  large for this environment (about 6 GB shared memory).
+- DepMap Public 20Q2 (figshare article 12280541, published
+  2020-06-04): Achilles_gene_effect.csv (282,073,071 bytes),
+  CCLE_mutations.csv (289,484,276), sample_info.csv (362,941),
+  Achilles_common_essentials.csv (29,415). All size and md5
+  verified against the figshare-supplied values.
+- TCGA, cBioPortal, DepMap 24Q4, GTEx: same files as Phase 2,
+  reused from `data/raw/` (no re-download).
+
+**Cohort and group counts (actual).**
+- Single cell: 35,954 cells in the dataset; 2,558 LUAD cells by
+  per-cell disease label (33,396 squamous, excluded); QC drops
+  5,899 of 35,954 cells; 1,953 LUAD cells used (756 malignant,
+  953 immune, 152 stromal, 92 other), from 2 donors (1,352 and
+  601 cells). QC medians: total counts 1150, genes detected 824.
+  X holds raw counts (integer values, max 7175), summed directly.
+  16,392 genes in the ranking universe appear in the dataset;
+  13,115 have a defined malignant share (3,277 not detected,
+  including SPRR1B, which has zero counts in every compartment).
+  Median malignant share across all genes with a defined share:
+  0.786; 73.8 percent of genes are above 0.7. The shortlist median
+  is 0.832 (range 0.713 to 0.958). See deviation 4.
+- Five-layer ranking: 28,328 genes ranked, 6,945 excluded as
+  unscoreable (same counts as Phase 2). Single cell coverage
+  13,115 genes. Cox set re-selected on the v3 preliminary ranking:
+  537 genes total (469 values reused from Phase 2, 34 new models
+  run in the 132-patient mutant subgroup; 6 of the 34 reach
+  p < 0.05, including ARF4, SGO1, SKA1, GMPS). 58 of 537 Cox
+  models reach p < 0.05 (Phase 2: 52 of 503).
+- Time split: DepMap 20Q2 covers 1,804 lines, 273 lung; 63 mutant
+  lung lines (21 with both mutations), 36 with CERES data, against
+  70 other lung lines with CERES data. Frozen ranking: 28,351
+  genes. Spearman correlation of scores with the Phase 2 ranking:
+  0.977. Shortlist overlap 12 of 20.
+- Validation plan: 5 genes (v3 top 5: INTS6, NFE2L2, UXS1,
+  NCAPG2, SPRR1B, which already includes the three genes the spec
+  names), 20 test line assignments and 15 control line
+  assignments, all from DepMap 24Q4 with per-line Chronos values.
+
+**Deviations and corrections.**
+1. CERES instead of Chronos in the time split: Chronos did not
+   exist in DepMap 20Q2, so the frozen dependency layer uses
+   Achilles CERES gene effect scores, with the selective
+   essentiality contrast computed the same way. The two scoring
+   methods are not identical, so part of the shortlist turnover
+   may be scoring method rather than data release. Disclosed in
+   the Phase 3 report and in `results/timesplit_check.md`.
+2. The single cell layer is excluded from the frozen ranking:
+   its dataset is from a 2024 preprint and cannot be frozen at a
+   pre-2021 date. The frozen ranking is therefore a four-layer
+   ranking, directly comparable to Phase 2, and the only
+   difference between the two rankings is the dependency layer's
+   release.
+3. Treg keyword fix in script 01: the first run mapped "natural
+   T-regulatory cell" (3,531 cells) to "other" because the keyword
+   "regulatory t" is not a substring of "t-regulatory". Fixed by
+   adding "t-regulatory" and "regulatory" to the immune keywords
+   and re-running; the first run's outputs were overwritten by the
+   corrected run, and no number from the buggy run survives in any
+   committed file. Donor composition reporting was added in the
+   same edit.
+4. The single cell layer's discriminating power is limited: the
+   median malignant share across all genes is 0.786 because
+   malignant cells contribute most of the counts, so a share of
+   0.8 is close to background. The layer penalizes immune and
+   stromal genes (CD274 falls from rank 5,646 to 9,694) more than
+   it distinguishes among tumor genes. Disclosed in the Phase 3
+   report, not fixed by reweighting.
+5. The raw malignant shares already span the full 0 to 1 range
+   (25 genes at 0, 51 at 1), so the min-max scaled single cell
+   layer value equals the raw share for every gene. No separate
+   scaling effect.
+6. The v2 to v3 rank movement has two causes, not one: the new
+   single cell layer, and the Cox re-selection, which gave
+   several genes (ARF4, SGO1, SKA1, GMPS) an outcome layer value
+   they lacked in Phase 2. Both are stated in the Phase 3 report.
+7. The 20Q2 mutation file `CCLE_mutations.csv` is tab-separated,
+   not comma-separated. Script 04 reads it with `sep="\t"`; the
+   first run failed on the column names and was fixed before any
+   output was written.
+8. The comparison table `timesplit_comparison.csv` was widened
+   after the first run of script 04 to include the union of both
+   shortlists plus the answer key (31 genes), so the eight
+   frozen-only entrants are traceable in the table itself; the
+   script was re-run and all its outputs regenerated.
+9. The `n_cells` column in `singlecell_compartments.csv` counts
+   all 35,954 cells in the dataset, not the 1,953 LUAD cells used
+   for the layer; the used-cell compartment counts are in
+   `singlecell_qc.json`.
+10. Human Cell Atlas normal lung component of the safety layer
+    still not done (GTEx heart/brain/liver only); deferred from
+    Phase 2 and still open after Phase 3. The DGIdb druggability
+    flag remains skipped for the Phase 2 reason (download URLs
+    return HTML).
+11. Outcome layer scaling weakness from Phase 2 (RN7SL564P
+    outlier, log HR -7.42, p = 0.076) still present, disclosed
+    not fixed; the report directs readers to the absolute hazard
+    ratios and p values in `cox_phase3.csv`.
+
+**Execution history.**
+- The first run of script 01 was re-run after the Treg keyword
+  fix (deviation 3); the corrected run is the one whose outputs
+  are committed.
+- Script 04's first run failed on the TSV separator (deviation
+  7) and was fixed and re-run; its second run succeeded, and a
+  third run followed the comparison table widening (deviation 8).
+- Phase 3 headline numbers: v3 shortlist led by INTS6, NFE2L2,
+  UXS1, NCAPG2, SPRR1B (19 of 20 Phase 2 genes stay; IMPDH2
+  enters, RPL6 leaves; 13 of 20 robust); answer key v3 KRAS
+  #4104, EGFR #5182, CD274 #9694 of 28,328; time split Spearman
+  0.977, shortlist overlap 12 of 20, NFE2L2 leads the frozen
+  dependency layer (-0.294), SPRR1B fails the time split
+  (selective essentiality +0.052 in 20Q2).
