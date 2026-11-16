@@ -20,3 +20,9 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Full screen intermediates: 2,757 ligands and their poses are large and
+# regenerable from library.csv with prepare_ligands.py.
+screening-full-uxs1/ligands/
+screening-full-uxs1/outputs/*_out.pdbqt
+screening-full-uxs1/outputs/*_energies.txt
