@@ -1,4 +1,4 @@
-# UXS1 docking — first screening run
+# UXS1 docking, first screening run
 
 Docking of candidate ligands into the UXS1 (UDP-xylose synthase /
 UDP-glucuronate decarboxylase 1) active site, as a first computational
@@ -57,7 +57,7 @@ consistent with the druggability check finding no known inhibitor. That is
 why the candidates are substrate/product analogues rather than known
 inhibitors.
 
-## Results — run 1 (apo receptor, NAD removed)
+## Results, run 1 (apo receptor, NAD removed)
 
 Best Vina affinity per ligand (kcal/mol; more negative = stronger predicted
 binding). Full per-pose energies in `outputs/<ligand>_energies.txt`;
@@ -96,7 +96,7 @@ make more contacts), so NAD+ leading the table is partly a size effect.
 Compare candidates of similar size against each other, and against the
 UDP control (-9.185), not against NAD+.
 
-## Results — run 2 (holo receptor, NAD retained)
+## Results, run 2 (holo receptor, NAD retained)
 
 Same 5 UDP ligands, re-docked with the crystal NAD kept as rigid receptor
 atoms and the box re-centered on the substrate site (center 60.0, 23.2,
@@ -174,40 +174,40 @@ valid rigid receptor for Vina.
 
 ## Files
 
-- `receptor/4GLL.pdb` — structure as downloaded from RCSB
-- `receptor/2B69.pdb` — 1.21 A structure with NAD+ and UDP bound, used to
+- `receptor/4GLL.pdb`: structure as downloaded from RCSB
+- `receptor/2B69.pdb`: 1.21 A structure with NAD+ and UDP bound, used to
   locate the crystallographic UDP site (aligned onto 4GLL, CA RMSD 3.05 A
   over 297 residues; the NAD sites align to ~1.2 A)
-- `receptor/uxs1_chainA.pdb` — chain A, heteroatoms/waters removed
-- `receptor/uxs1_chainA.pdbqt` — prepared apo receptor for Vina
-- `receptor/uxs1_holo.pdbqt` — holo receptor: apo receptor + crystal NAD
+- `receptor/uxs1_chainA.pdb`: chain A, heteroatoms/waters removed
+- `receptor/uxs1_chainA.pdbqt`: prepared apo receptor for Vina
+- `receptor/uxs1_holo.pdbqt`: holo receptor: apo receptor + crystal NAD
   as rigid receptor atoms (run 2)
-- `receptor/uxs1_chainA_NAD.pdb`, `receptor/uxs1_chainA_NAD.pdbqt` —
+- `receptor/uxs1_chainA_NAD.pdb`, `receptor/uxs1_chainA_NAD.pdbqt` ,
   OpenBabel conversion used to extract the NAD atoms (not used directly
   as a receptor; see run 2 note)
-- `receptor/crystal_NAD_chainA.pdb` — co-crystallized NAD, chain A
-- `receptor/crystal_UDP900_in4GLL.pdb` — 2B69 UDP 900 transformed into
+- `receptor/crystal_NAD_chainA.pdb`: co-crystallized NAD, chain A
+- `receptor/crystal_UDP900_in4GLL.pdb`: 2B69 UDP 900 transformed into
   the 4GLL frame (substrate-site reference)
 - `receptor/2B69_UDP_900_in4GLL.npy`, `receptor/2B69_UDP_901_in4GLL.npy`,
-  `receptor/2B69_NAD_800_in4GLL.npy` — transformed coordinates (numpy)
-- `receptor/uxs1_box.txt`, `receptor/uxs1_chainA.box.pdb` — box definition
-- `ligands/<name>.sdf` — 3D structures from PubChem
-- `ligands/<name>.pdbqt` — prepared ligands for Vina
-- `outputs/<ligand>_out.pdbqt` — docked poses, run 1 (9 per ligand)
-- `outputs/<ligand>_energies.txt` — per-pose energies, run 1
-- `outputs/results.csv` — best affinity per ligand, run 1, ranked
-- `outputs/vina_config.txt` — run 1 parameters
-- `outputs/docking_run.log` — full Vina log, run 1
-- `outputs/NAD_best_pose.png` — PyMOL render: docked NAD vs crystal NAD
-- `outputs/holo/<ligand>_out.pdbqt` — docked poses, run 2 (9 per ligand)
-- `outputs/holo/<ligand>_energies.txt` — per-pose energies, run 2
-- `outputs/holo/results_holo.csv` — best affinity per ligand, run 2, ranked
-- `outputs/holo/docking_run_holo.log` — full Vina log, run 2
-- `outputs/holo/UDP-xylose_best_pose_holo.png` — PyMOL render: best holo pose
-- `run_docking.py` — driver script, run 1 (re-runnable)
-- `run_docking_holo.py` — driver script, run 2 (re-runnable)
-- `check_pose.py` — pose-vs-crystal-NAD comparison script
-- `render_pose.py`, `render_pose_holo.py` — PyMOL render scripts
+  `receptor/2B69_NAD_800_in4GLL.npy`, transformed coordinates (numpy)
+- `receptor/uxs1_box.txt`, `receptor/uxs1_chainA.box.pdb`: box definition
+- `ligands/<name>.sdf`: 3D structures from PubChem
+- `ligands/<name>.pdbqt`: prepared ligands for Vina
+- `outputs/<ligand>_out.pdbqt`: docked poses, run 1 (9 per ligand)
+- `outputs/<ligand>_energies.txt`: per-pose energies, run 1
+- `outputs/results.csv`: best affinity per ligand, run 1, ranked
+- `outputs/vina_config.txt`: run 1 parameters
+- `outputs/docking_run.log`: full Vina log, run 1
+- `outputs/NAD_best_pose.png`: PyMOL render: docked NAD vs crystal NAD
+- `outputs/holo/<ligand>_out.pdbqt`: docked poses, run 2 (9 per ligand)
+- `outputs/holo/<ligand>_energies.txt`: per-pose energies, run 2
+- `outputs/holo/results_holo.csv`: best affinity per ligand, run 2, ranked
+- `outputs/holo/docking_run_holo.log`: full Vina log, run 2
+- `outputs/holo/UDP-xylose_best_pose_holo.png`: PyMOL render: best holo pose
+- `run_docking.py`: driver script, run 1 (re-runnable)
+- `run_docking_holo.py`: driver script, run 2 (re-runnable)
+- `check_pose.py`: pose-vs-crystal-NAD comparison script
+- `render_pose.py`, `render_pose_holo.py`: PyMOL render scripts
 
 ## Environment
 

@@ -1,4 +1,4 @@
-# UXS1 virtual screen — approved-drug repurposing library
+# UXS1 virtual screen, approved-drug repurposing library
 
 A small virtual screen of approved small-molecule drugs against the
 UXS1 (UDP-xylose synthase / UDP-glucuronate decarboxylase 1) substrate
@@ -53,7 +53,7 @@ selectivity, or toxicity. Any hit here needs biochemical testing
   hit scoring near or better than the substrate is worth a second
   look, not a conclusion.
 
-## Results — pass 1 (exhaustiveness 4)
+## Results, pass 1 (exhaustiveness 4)
 
 100 of 100 compounds docked. Best Vina affinity per compound
 (kcal/mol; more negative = stronger predicted binding). Top 10:
@@ -78,7 +78,7 @@ of the top-10 ranking is a size effect, not binding specificity.
 
 Full ranked list: `outputs/pass1/results_pass1.csv`.
 
-## Results — pass 2 (top 10 re-docked at exhaustiveness 8)
+## Results, pass 2 (top 10 re-docked at exhaustiveness 8)
 
 | Rank | Compound | ChEMBL ID | Best affinity exh 8 (kcal/mol) | Pass 1 exh 4 (kcal/mol) | MW (Da) |
 | --- | --- | --- | --- | --- | --- |
@@ -105,7 +105,7 @@ coarse stochastic search, not a stable minimum. This is why the
 re-dock step exists, and why the pass-1 ranking alone should not be
 trusted for flexible ligands. Irinotecan and lapatinib are the
 reproducible leaders (-9.283 and -9.196), both scoring better than
-the natural product reference UDP-xylose (-8.796) — with the size
+the natural product reference UDP-xylose (-8.796), with the size
 caveat above, since both are ~580 Da. Ranks 3-9 span only
 0.41 kcal/mol, far inside Vina's error: do not over-read that order.
 
@@ -153,24 +153,24 @@ caveat above, since both are ~580 Da. Ranks 3-9 span only
 
 ## Files
 
-- `fetch_library.py` — ChEMBL query + sampling (reproducible, seed 42)
-- `library.csv` — the 100-compound library (ChEMBL ID, name, SMILES, MW)
-- `prepare_ligands.py` — RDKit 3D conformers + Meeko PDBQT preparation
-- `ligands/<chembl_id>.sdf` — 3D structures
-- `ligands/<chembl_id>.pdbqt` — prepared ligands for Vina
-- `receptor/uxs1_holo.pdbqt` — holo receptor (copied from docking-uxs1)
-- `run_screen_pass1.py` — pass-1 driver (exhaustiveness 4)
-- `run_redock_top10.py` — pass-2 driver (top 10, exhaustiveness 8)
-- `outputs/pass1/<chembl_id>_out.pdbqt` — docked poses, pass 1
-- `outputs/pass1/<chembl_id>_energies.txt` — per-pose energies, pass 1
-- `outputs/pass1/results_pass1.csv` — ranked pass-1 results
-- `outputs/top10/<chembl_id>_out.pdbqt` — docked poses, pass 2
-- `outputs/top10/<chembl_id>_energies.txt` — per-pose energies, pass 2
-- `outputs/top10/results_top10.csv` — ranked pass-2 results
-- `logs/prep.log` — ligand preparation log
-- `logs/prep_failures.txt` — compounds that failed preparation (none)
-- `logs/pass1.log` — pass-1 run log
-- `logs/pass2.log` — pass-2 run log
+- `fetch_library.py`: ChEMBL query + sampling (reproducible, seed 42)
+- `library.csv`: the 100-compound library (ChEMBL ID, name, SMILES, MW)
+- `prepare_ligands.py`: RDKit 3D conformers + Meeko PDBQT preparation
+- `ligands/<chembl_id>.sdf`: 3D structures
+- `ligands/<chembl_id>.pdbqt`: prepared ligands for Vina
+- `receptor/uxs1_holo.pdbqt`: holo receptor (copied from docking-uxs1)
+- `run_screen_pass1.py`: pass-1 driver (exhaustiveness 4)
+- `run_redock_top10.py`: pass-2 driver (top 10, exhaustiveness 8)
+- `outputs/pass1/<chembl_id>_out.pdbqt`: docked poses, pass 1
+- `outputs/pass1/<chembl_id>_energies.txt`: per-pose energies, pass 1
+- `outputs/pass1/results_pass1.csv`: ranked pass-1 results
+- `outputs/top10/<chembl_id>_out.pdbqt`: docked poses, pass 2
+- `outputs/top10/<chembl_id>_energies.txt`: per-pose energies, pass 2
+- `outputs/top10/results_top10.csv`: ranked pass-2 results
+- `logs/prep.log`: ligand preparation log
+- `logs/prep_failures.txt`: compounds that failed preparation (none)
+- `logs/pass1.log`: pass-1 run log
+- `logs/pass2.log`: pass-2 run log
 
 ## Environment
 

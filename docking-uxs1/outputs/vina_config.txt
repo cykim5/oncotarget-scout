@@ -1,4 +1,4 @@
-# AutoDock Vina run parameters — UXS1 docking (OncoTarget Scout)
+# AutoDock Vina run parameters, UXS1 docking (OncoTarget Scout)
 # Run via run_docking.py (Vina 1.2.7 Python API). Equivalent CLI config:
 receptor = ../receptor/uxs1_chainA.pdbqt
 center_x = 53.3
@@ -18,4 +18,4 @@ energy_range = 3
 # full-length numbering, so the triad is Thr202/Tyr231/Lys235 there
 # (offset +84; all three residue types and NAD proximity confirm it).
 # Ligands (all in ../ligands/): NAD, UDP, UDP-glucuronate, UDP-xylose,
-# UDP-galactose, UMP — each as <name>.pdbqt, prepared with Meeko.
+# UDP-galactose, UMP, each as <name>.pdbqt, prepared with Meeko.
