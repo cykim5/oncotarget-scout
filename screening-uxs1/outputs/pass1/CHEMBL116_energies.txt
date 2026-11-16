@@ -1,0 +1,16 @@
+ligand: CHEMBL116 (AMPRENAVIR)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.422 | -11.303 | -3.160 | 4.881 | -3.160
+2 | -6.338 | -10.686 | -3.629 | 4.816 | -3.160
+3 | -6.306 | -10.871 | -3.387 | 4.792 | -3.160
+4 | -6.258 | -11.171 | -3.003 | 4.756 | -3.160
+5 | -6.157 | -11.621 | -2.375 | 4.679 | -3.160
+6 | -6.014 | -11.085 | -2.660 | 4.571 | -3.160
+7 | -5.906 | -11.041 | -2.514 | 4.489 | -3.160
+8 | -5.812 | -11.210 | -2.179 | 4.417 | -3.160
+9 | -5.749 | -10.717 | -2.561 | 4.369 | -3.160

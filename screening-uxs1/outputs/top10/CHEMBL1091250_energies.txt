@@ -1,0 +1,16 @@
+ligand: CHEMBL1091250 (INDIGOTINDISULFONATE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 8
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -8.363 | -9.830 | -0.187 | 1.467 | -0.187
+2 | -8.264 | -9.713 | -0.187 | 1.449 | -0.187
+3 | -7.983 | -9.387 | -0.184 | 1.400 | -0.187
+4 | -7.942 | -9.342 | -0.180 | 1.393 | -0.187
+5 | -7.444 | -8.750 | -0.187 | 1.306 | -0.187
+6 | -7.360 | -8.649 | -0.188 | 1.291 | -0.187
+7 | -7.003 | -8.231 | -0.187 | 1.228 | -0.187
+8 | -6.845 | -8.049 | -0.184 | 1.201 | -0.187
+9 | -6.716 | -7.901 | -0.180 | 1.178 | -0.187

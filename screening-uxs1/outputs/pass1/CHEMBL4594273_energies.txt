@@ -1,0 +1,16 @@
+ligand: CHEMBL4594273 (ELACESTRANT HYDROCHLORIDE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.595 | -10.643 | -3.432 | 4.048 | -3.432
+2 | -6.446 | -9.717 | -4.119 | 3.957 | -3.432
+3 | -6.431 | -10.144 | -3.667 | 3.948 | -3.432
+4 | -6.204 | -10.660 | -2.786 | 3.808 | -3.432
+5 | -6.054 | -9.653 | -3.551 | 3.716 | -3.432
+6 | -5.929 | -9.754 | -3.247 | 3.639 | -3.432
+7 | -5.891 | -11.322 | -1.618 | 3.616 | -3.432
+8 | -5.866 | -11.434 | -1.464 | 3.601 | -3.432
+9 | -5.618 | -8.703 | -3.795 | 3.448 | -3.432

@@ -1,0 +1,16 @@
+ligand: CHEMBL1112 (ARIPIPRAZOLE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.309 | -8.891 | -2.637 | 2.582 | -2.637
+2 | -5.970 | -8.569 | -2.481 | 2.443 | -2.637
+3 | -5.665 | -8.562 | -2.058 | 2.318 | -2.637
+4 | -5.542 | -9.650 | -0.798 | 2.268 | -2.637
+5 | -5.409 | -9.533 | -0.727 | 2.214 | -2.637
+6 | -5.372 | -9.585 | -0.622 | 2.198 | -2.637
+7 | -5.370 | -9.223 | -0.981 | 2.197 | -2.637
+8 | -5.279 | -9.174 | -0.903 | 2.160 | -2.637
+9 | -5.187 | -8.669 | -1.278 | 2.123 | -2.637

@@ -1,0 +1,16 @@
+ligand: CHEMBL5 (NALIDIXIC ACID)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.154 | -7.054 | -0.390 | 0.899 | -0.390
+2 | -5.881 | -6.700 | -0.431 | 0.860 | -0.390
+3 | -5.772 | -6.598 | -0.408 | 0.844 | -0.390
+4 | -5.743 | -6.600 | -0.372 | 0.839 | -0.390
+5 | -5.305 | -6.277 | -0.193 | 0.775 | -0.390
+6 | -5.299 | -6.204 | -0.260 | 0.775 | -0.390
+7 | -5.208 | -5.938 | -0.421 | 0.761 | -0.390
+8 | -5.173 | -6.084 | -0.236 | 0.756 | -0.390
+9 | -5.126 | -6.000 | -0.265 | 0.749 | -0.390

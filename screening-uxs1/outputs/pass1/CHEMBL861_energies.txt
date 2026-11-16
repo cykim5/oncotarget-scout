@@ -1,0 +1,16 @@
+ligand: CHEMBL861 (MEPHENYTOIN)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.758 | -6.431 | -0.453 | 0.673 | -0.453
+2 | -5.570 | -6.463 | -0.212 | 0.651 | -0.453
+3 | -5.397 | -6.098 | -0.382 | 0.631 | -0.453
+4 | -5.139 | -5.744 | -0.449 | 0.601 | -0.453
+5 | -4.928 | -5.509 | -0.448 | 0.576 | -0.453
+6 | -4.837 | -5.478 | -0.377 | 0.566 | -0.453
+7 | -4.624 | -5.234 | -0.384 | 0.541 | -0.453
+8 | -4.589 | -5.403 | -0.176 | 0.537 | -0.453
+9 | -4.536 | -5.147 | -0.373 | 0.530 | -0.453

@@ -1,0 +1,16 @@
+ligand: CHEMBL1254682 (LEVALLORPHAN)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.343 | -8.416 | -0.291 | 1.073 | -0.291
+2 | -6.662 | -7.645 | -0.281 | 0.974 | -0.291
+3 | -6.260 | -7.246 | -0.220 | 0.915 | -0.291
+4 | -6.217 | -7.171 | -0.245 | 0.909 | -0.291
+5 | -5.989 | -6.912 | -0.244 | 0.875 | -0.291
+6 | -5.935 | -6.727 | -0.367 | 0.867 | -0.291
+7 | -5.906 | -6.601 | -0.459 | 0.863 | -0.291
+8 | -5.571 | -6.417 | -0.259 | 0.814 | -0.291
+9 | -5.483 | -6.165 | -0.410 | 0.801 | -0.291

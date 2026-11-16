@@ -1,0 +1,16 @@
+ligand: CHEMBL1200901 (HALOFANTRINE HYDROCHLORIDE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.949 | -13.294 | -0.753 | 5.344 | -0.753
+2 | -7.568 | -9.733 | -3.676 | 5.088 | -0.753
+3 | -7.388 | -10.378 | -2.731 | 4.967 | -0.753
+4 | -7.230 | -10.003 | -2.841 | 4.861 | -0.753
+5 | -7.212 | -9.940 | -2.873 | 4.848 | -0.753
+6 | -7.061 | -9.157 | -3.404 | 4.747 | -0.753
+7 | -7.026 | -9.830 | -2.672 | 4.724 | -0.753
+8 | -6.958 | -10.494 | -1.895 | 4.678 | -0.753
+9 | -6.813 | -9.575 | -2.571 | 4.580 | -0.753

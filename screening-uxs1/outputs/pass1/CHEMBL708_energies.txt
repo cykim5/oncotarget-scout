@@ -1,0 +1,16 @@
+ligand: CHEMBL708 (ZIPRASIDONE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.696 | -9.495 | -0.673 | 1.800 | -0.673
+2 | -7.615 | -9.948 | -0.122 | 1.781 | -0.673
+3 | -7.580 | -9.437 | -0.589 | 1.772 | -0.673
+4 | -7.574 | -9.194 | -0.825 | 1.771 | -0.673
+5 | -7.365 | -9.267 | -0.494 | 1.722 | -0.673
+6 | -7.274 | -8.751 | -0.897 | 1.701 | -0.673
+7 | -7.229 | -8.866 | -0.727 | 1.691 | -0.673
+8 | -6.928 | -8.404 | -0.818 | 1.620 | -0.673
+9 | -6.774 | -8.177 | -0.854 | 1.584 | -0.673

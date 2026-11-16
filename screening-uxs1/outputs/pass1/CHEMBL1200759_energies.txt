@@ -1,0 +1,16 @@
+ligand: CHEMBL1200759 (ANAGRELIDE HYDROCHLORIDE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.409 | -6.409 | 0.000 | 0.000 | 0.000
+2 | -6.027 | -6.027 | 0.000 | 0.000 | 0.000
+3 | -5.940 | -5.940 | 0.000 | 0.000 | 0.000
+4 | -5.526 | -5.526 | 0.000 | 0.000 | 0.000
+5 | -5.454 | -5.454 | 0.000 | 0.000 | 0.000
+6 | -5.403 | -5.403 | 0.000 | 0.000 | 0.000
+7 | -5.006 | -5.006 | 0.000 | 0.000 | 0.000
+8 | -4.967 | -4.967 | 0.000 | 0.000 | 0.000
+9 | -4.683 | -4.683 | 0.000 | 0.000 | 0.000

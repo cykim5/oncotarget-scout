@@ -1,0 +1,16 @@
+ligand: CHEMBL4303454 (DORIPENEM MONOHYDRATE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.662 | -11.469 | -1.499 | 3.807 | -1.499
+2 | -7.422 | -11.530 | -1.080 | 3.688 | -1.499
+3 | -7.262 | -11.184 | -1.185 | 3.608 | -1.499
+4 | -7.028 | -11.046 | -0.973 | 3.492 | -1.499
+5 | -7.009 | -11.174 | -0.816 | 3.483 | -1.499
+6 | -6.548 | -9.851 | -1.450 | 3.254 | -1.499
+7 | -6.541 | -9.432 | -1.858 | 3.250 | -1.499
+8 | -6.529 | -9.436 | -1.836 | 3.244 | -1.499
+9 | -6.421 | -9.826 | -1.285 | 3.191 | -1.499

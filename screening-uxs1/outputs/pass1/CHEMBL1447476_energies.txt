@@ -1,0 +1,16 @@
+ligand: CHEMBL1447476 (BITHIONOLATE SODIUM)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.165 | -6.886 | -0.111 | 0.721 | -0.111
+2 | -6.073 | -6.691 | -0.203 | 0.710 | -0.111
+3 | -6.029 | -6.411 | -0.435 | 0.705 | -0.111
+4 | -6.022 | -6.401 | -0.437 | 0.704 | -0.111
+5 | -5.898 | -6.281 | -0.417 | 0.690 | -0.111
+6 | -5.813 | -6.163 | -0.441 | 0.680 | -0.111
+7 | -5.636 | -5.991 | -0.415 | 0.659 | -0.111
+8 | -5.604 | -6.018 | -0.352 | 0.655 | -0.111
+9 | -5.531 | -5.870 | -0.419 | 0.647 | -0.111

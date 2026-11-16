@@ -1,0 +1,16 @@
+ligand: CHEMBL1201057 (CILASTATIN SODIUM)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.380 | -9.153 | -2.113 | 3.774 | -2.113
+2 | -5.213 | -9.187 | -1.795 | 3.657 | -2.113
+3 | -5.126 | -9.633 | -1.202 | 3.596 | -2.113
+4 | -5.016 | -8.938 | -1.709 | 3.519 | -2.113
+5 | -4.888 | -9.783 | -0.645 | 3.429 | -2.113
+6 | -4.875 | -8.369 | -2.038 | 3.420 | -2.113
+7 | -4.855 | -8.855 | -1.518 | 3.406 | -2.113
+8 | -4.731 | -9.008 | -1.153 | 3.319 | -2.113
+9 | -4.723 | -8.721 | -1.428 | 3.314 | -2.113

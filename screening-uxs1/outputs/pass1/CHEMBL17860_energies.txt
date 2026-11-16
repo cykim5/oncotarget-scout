@@ -1,0 +1,16 @@
+ligand: CHEMBL17860 (LOFEXIDINE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.959 | -7.005 | -0.032 | 1.045 | -0.032
+2 | -5.825 | -6.916 | 0.036 | 1.022 | -0.032
+3 | -5.692 | -6.227 | -0.496 | 0.998 | -0.032
+4 | -5.672 | -6.442 | -0.257 | 0.995 | -0.032
+5 | -5.448 | -6.104 | -0.331 | 0.955 | -0.032
+6 | -5.418 | -6.179 | -0.222 | 0.950 | -0.032
+7 | -5.097 | -5.786 | -0.237 | 0.894 | -0.032
+8 | -5.093 | -5.659 | -0.360 | 0.893 | -0.032
+9 | -5.092 | -5.632 | -0.385 | 0.893 | -0.032

@@ -1,0 +1,16 @@
+ligand: CHEMBL2105760 (BREXPIPRAZOLE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.335 | -8.927 | -2.167 | 2.592 | -2.167
+2 | -5.990 | -8.559 | -2.049 | 2.451 | -2.167
+3 | -5.988 | -9.835 | -0.770 | 2.450 | -2.167
+4 | -5.733 | -8.658 | -1.587 | 2.346 | -2.167
+5 | -5.551 | -7.865 | -2.125 | 2.272 | -2.167
+6 | -5.494 | -7.706 | -2.202 | 2.248 | -2.167
+7 | -5.442 | -8.306 | -1.529 | 2.227 | -2.167
+8 | -5.264 | -8.081 | -1.504 | 2.154 | -2.167
+9 | -5.205 | -7.744 | -1.758 | 2.130 | -2.167

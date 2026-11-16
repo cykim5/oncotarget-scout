@@ -1,0 +1,16 @@
+ligand: CHEMBL2106915 (METHOPHOLINE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.601 | -8.531 | -0.645 | 1.930 | -0.645
+2 | -6.511 | -8.229 | -0.831 | 1.903 | -0.645
+3 | -6.283 | -7.948 | -0.817 | 1.837 | -0.645
+4 | -6.121 | -7.331 | -1.223 | 1.789 | -0.645
+5 | -6.077 | -7.872 | -0.626 | 1.776 | -0.645
+6 | -6.035 | -7.199 | -1.245 | 1.764 | -0.645
+7 | -5.981 | -6.992 | -1.382 | 1.748 | -0.645
+8 | -5.875 | -7.568 | -0.669 | 1.717 | -0.645
+9 | -5.719 | -7.222 | -0.813 | 1.672 | -0.645

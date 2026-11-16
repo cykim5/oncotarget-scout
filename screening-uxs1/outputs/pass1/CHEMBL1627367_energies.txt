@@ -1,0 +1,16 @@
+ligand: CHEMBL1627367 (FLUOROESTRADIOL)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.050 | -7.462 | 0.000 | 0.412 | 0.000
+2 | -6.777 | -7.174 | 0.000 | 0.396 | 0.000
+3 | -6.569 | -6.953 | 0.000 | 0.384 | 0.000
+4 | -5.948 | -6.295 | 0.000 | 0.348 | 0.000
+5 | -5.593 | -5.920 | 0.000 | 0.327 | 0.000
+6 | -5.585 | -5.912 | 0.000 | 0.327 | 0.000
+7 | -5.452 | -5.771 | 0.000 | 0.319 | 0.000
+8 | -5.235 | -5.541 | 0.000 | 0.306 | 0.000
+9 | -5.085 | -5.382 | 0.000 | 0.297 | 0.000

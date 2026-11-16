@@ -1,0 +1,16 @@
+ligand: CHEMBL3182343 (PIVAMPICILLIN)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -8.087 | -12.578 | -0.198 | 4.491 | -0.198
+2 | -7.796 | -11.350 | -0.973 | 4.329 | -0.198
+3 | -7.519 | -10.479 | -1.413 | 4.176 | -0.198
+4 | -7.511 | -10.976 | -0.904 | 4.171 | -0.198
+5 | -7.436 | -11.001 | -0.762 | 4.130 | -0.198
+6 | -7.390 | -10.354 | -1.338 | 4.104 | -0.198
+7 | -7.361 | -10.299 | -1.349 | 4.088 | -0.198
+8 | -7.187 | -10.246 | -1.131 | 3.991 | -0.198
+9 | -7.137 | -10.562 | -0.736 | 3.964 | -0.198

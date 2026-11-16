@@ -1,0 +1,16 @@
+ligand: CHEMBL1519 (TRANDOLAPRIL)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.970 | -13.328 | -0.905 | 5.358 | -0.905
+2 | -7.647 | -11.133 | -2.560 | 5.141 | -0.905
+3 | -7.612 | -11.166 | -2.468 | 5.118 | -0.905
+4 | -7.607 | -11.106 | -2.519 | 5.114 | -0.905
+5 | -7.576 | -14.151 | 0.577 | 5.093 | -0.905
+6 | -7.552 | -11.336 | -2.198 | 5.077 | -0.905
+7 | -7.141 | -10.061 | -2.786 | 4.801 | -0.905
+8 | -6.841 | -9.754 | -2.591 | 4.599 | -0.905
+9 | -6.703 | -9.836 | -2.278 | 4.506 | -0.905

@@ -1,0 +1,16 @@
+ligand: CHEMBL1387 (NORETHYNODREL)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.909 | -7.111 | 0.000 | 0.202 | 0.000
+2 | -6.584 | -6.776 | 0.000 | 0.192 | 0.000
+3 | -6.548 | -6.739 | 0.000 | 0.191 | 0.000
+4 | -6.523 | -6.714 | 0.000 | 0.191 | 0.000
+5 | -6.418 | -6.606 | 0.000 | 0.188 | 0.000
+6 | -6.370 | -6.557 | 0.000 | 0.186 | 0.000
+7 | -6.357 | -6.543 | 0.000 | 0.186 | 0.000
+8 | -5.891 | -6.063 | 0.000 | 0.172 | 0.000
+9 | -5.622 | -5.787 | 0.000 | 0.164 | 0.000

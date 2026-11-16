@@ -1,0 +1,16 @@
+ligand: CHEMBL2107175 (RANELIC ACID)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.733 | -10.669 | -1.200 | 3.936 | -1.200
+2 | -6.689 | -10.529 | -1.270 | 3.910 | -1.200
+3 | -6.091 | -9.140 | -1.712 | 3.561 | -1.200
+4 | -6.041 | -9.026 | -1.746 | 3.531 | -1.200
+5 | -5.867 | -9.223 | -1.273 | 3.430 | -1.200
+6 | -5.856 | -9.011 | -1.468 | 3.423 | -1.200
+7 | -5.827 | -8.975 | -1.458 | 3.406 | -1.200
+8 | -5.739 | -9.100 | -1.194 | 3.355 | -1.200
+9 | -5.729 | -8.775 | -1.503 | 3.349 | -1.200

@@ -1,0 +1,16 @@
+ligand: CHEMBL549 (CITALOPRAM)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.803 | -8.791 | -0.877 | 1.988 | -0.877
+2 | -6.540 | -8.381 | -0.947 | 1.912 | -0.877
+3 | -6.435 | -7.973 | -1.220 | 1.881 | -0.877
+4 | -6.392 | -8.249 | -0.889 | 1.868 | -0.877
+5 | -6.151 | -8.040 | -0.787 | 1.798 | -0.877
+6 | -6.145 | -7.642 | -1.176 | 1.796 | -0.877
+7 | -5.666 | -7.385 | -0.815 | 1.656 | -0.877
+8 | -5.427 | -6.811 | -1.080 | 1.586 | -0.877
+9 | -5.340 | -7.074 | -0.704 | 1.561 | -0.877

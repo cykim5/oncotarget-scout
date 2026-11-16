@@ -1,0 +1,16 @@
+ligand: CHEMBL1314 (TIOPRONIN)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.179 | -6.390 | -0.114 | 1.211 | -0.114
+2 | -4.769 | -5.782 | -0.216 | 1.115 | -0.114
+3 | -4.532 | -5.564 | -0.141 | 1.060 | -0.114
+4 | -4.392 | -5.452 | -0.081 | 1.027 | -0.114
+5 | -4.104 | -5.032 | -0.145 | 0.960 | -0.114
+6 | -3.968 | -4.844 | -0.165 | 0.928 | -0.114
+7 | -3.961 | -4.879 | -0.121 | 0.926 | -0.114
+8 | -3.852 | -4.725 | -0.141 | 0.901 | -0.114
+9 | -3.790 | -4.547 | -0.242 | 0.886 | -0.114

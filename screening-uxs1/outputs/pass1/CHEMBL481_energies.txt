@@ -1,0 +1,13 @@
+ligand: CHEMBL481 (IRINOTECAN)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -9.402 | -12.425 | -0.933 | 3.023 | -0.933
+2 | -9.206 | -12.817 | -0.282 | 2.960 | -0.933
+3 | -8.191 | -10.902 | -0.857 | 2.634 | -0.933
+4 | -8.110 | -11.341 | -0.311 | 2.608 | -0.933
+5 | -7.761 | -10.050 | -1.139 | 2.495 | -0.933
+6 | -6.782 | -8.722 | -1.174 | 2.181 | -0.933

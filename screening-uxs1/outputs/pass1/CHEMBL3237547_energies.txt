@@ -1,0 +1,16 @@
+ligand: CHEMBL3237547 (CEDAZURIDINE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.025 | -7.258 | -0.610 | 1.233 | -0.610
+2 | -5.695 | -6.896 | -0.574 | 1.165 | -0.610
+3 | -5.473 | -6.581 | -0.622 | 1.120 | -0.610
+4 | -5.316 | -6.960 | -0.054 | 1.088 | -0.610
+5 | -5.083 | -6.255 | -0.478 | 1.040 | -0.610
+6 | -5.052 | -7.130 | 0.434 | 1.034 | -0.610
+7 | -5.028 | -6.032 | -0.635 | 1.029 | -0.610
+8 | -4.617 | -5.620 | -0.552 | 0.945 | -0.610
+9 | -4.357 | -5.450 | -0.409 | 0.891 | -0.610

@@ -1,0 +1,16 @@
+ligand: CHEMBL3948730 (UMBRALISIB)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 8
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -8.279 | -11.425 | -2.396 | 3.146 | -2.396
+2 | -8.025 | -10.809 | -2.661 | 3.049 | -2.396
+3 | -7.924 | -11.974 | -1.357 | 3.011 | -2.396
+4 | -7.797 | -12.015 | -1.140 | 2.963 | -2.396
+5 | -7.704 | -10.372 | -2.656 | 2.928 | -2.396
+6 | -7.593 | -10.897 | -1.977 | 2.885 | -2.396
+7 | -7.585 | -11.399 | -1.463 | 2.882 | -2.396
+8 | -7.448 | -10.515 | -2.160 | 2.830 | -2.396
+9 | -7.373 | -10.345 | -2.225 | 2.802 | -2.396

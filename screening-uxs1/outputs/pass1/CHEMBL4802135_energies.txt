@@ -1,0 +1,16 @@
+ligand: CHEMBL4802135 (NIRMATRELVIR)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.106 | -10.845 | -2.004 | 3.739 | -2.004
+2 | -7.064 | -9.993 | -2.792 | 3.717 | -2.004
+3 | -7.022 | -9.699 | -3.021 | 3.695 | -2.004
+4 | -6.858 | -10.074 | -2.395 | 3.608 | -2.004
+5 | -6.760 | -10.817 | -1.504 | 3.557 | -2.004
+6 | -6.434 | -10.276 | -1.547 | 3.385 | -2.004
+7 | -6.327 | -9.494 | -2.166 | 3.329 | -2.004
+8 | -6.197 | -8.736 | -2.725 | 3.261 | -2.004
+9 | -6.147 | -9.136 | -2.249 | 3.234 | -2.004

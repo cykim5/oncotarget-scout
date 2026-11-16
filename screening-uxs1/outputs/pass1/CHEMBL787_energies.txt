@@ -1,0 +1,16 @@
+ligand: CHEMBL787 (MONTELUKAST)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.765 | -13.667 | -2.739 | 5.901 | -2.739
+2 | -7.322 | -13.702 | -1.924 | 5.565 | -2.739
+3 | -7.291 | -13.628 | -1.943 | 5.541 | -2.739
+4 | -7.222 | -13.049 | -2.401 | 5.489 | -2.739
+5 | -7.212 | -12.957 | -2.475 | 5.481 | -2.739
+6 | -7.196 | -11.917 | -3.487 | 5.469 | -2.739
+7 | -7.042 | -13.555 | -1.577 | 5.352 | -2.739
+8 | -6.913 | -13.753 | -1.153 | 5.254 | -2.739
+9 | -6.901 | -12.394 | -2.490 | 5.244 | -2.739

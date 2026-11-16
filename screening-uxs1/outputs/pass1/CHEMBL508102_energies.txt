@@ -1,0 +1,16 @@
+ligand: CHEMBL508102 (CARBIMAZOLE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -4.674 | -5.493 | -0.186 | 0.820 | -0.186
+2 | -4.665 | -5.557 | -0.112 | 0.818 | -0.186
+3 | -4.607 | -5.448 | -0.154 | 0.808 | -0.186
+4 | -4.461 | -5.246 | -0.183 | 0.782 | -0.186
+5 | -4.223 | -4.935 | -0.215 | 0.741 | -0.186
+6 | -4.099 | -4.831 | -0.172 | 0.719 | -0.186
+7 | -4.067 | -4.710 | -0.256 | 0.713 | -0.186
+8 | -3.989 | -4.637 | -0.238 | 0.700 | -0.186
+9 | -3.867 | -4.556 | -0.175 | 0.678 | -0.186

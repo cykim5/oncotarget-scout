@@ -1,0 +1,16 @@
+ligand: CHEMBL32 (MOXIFLOXACIN)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.769 | -9.813 | -0.634 | 2.044 | -0.634
+2 | -7.080 | -8.921 | -0.656 | 1.862 | -0.634
+3 | -6.571 | -8.479 | -0.456 | 1.729 | -0.634
+4 | -6.455 | -8.549 | -0.239 | 1.698 | -0.634
+5 | -6.000 | -7.926 | -0.287 | 1.578 | -0.634
+6 | -5.876 | -7.939 | -0.118 | 1.546 | -0.634
+7 | -5.843 | -7.745 | -0.270 | 1.537 | -0.634
+8 | -5.545 | -6.932 | -0.705 | 1.459 | -0.634
+9 | -5.460 | -7.488 | -0.042 | 1.436 | -0.634

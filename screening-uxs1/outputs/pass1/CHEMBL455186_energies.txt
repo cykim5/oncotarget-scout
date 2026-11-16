@@ -1,0 +1,16 @@
+ligand: CHEMBL455186 (TREOSULFAN)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.412 | -9.411 | -0.543 | 2.999 | -0.543
+2 | -6.248 | -9.017 | -0.695 | 2.922 | -0.543
+3 | -6.164 | -9.222 | -0.367 | 2.883 | -0.543
+4 | -5.878 | -8.371 | -0.798 | 2.749 | -0.543
+5 | -5.702 | -8.288 | -0.624 | 2.667 | -0.543
+6 | -5.642 | -8.368 | -0.455 | 2.638 | -0.543
+7 | -5.589 | -8.492 | -0.253 | 2.614 | -0.543
+8 | -5.500 | -7.797 | -0.818 | 2.572 | -0.543
+9 | -5.291 | -7.577 | -0.732 | 2.475 | -0.543

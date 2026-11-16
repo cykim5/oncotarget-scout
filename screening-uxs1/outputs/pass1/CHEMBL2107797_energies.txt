@@ -1,0 +1,16 @@
+ligand: CHEMBL2107797 (NORGESTREL)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.785 | -7.380 | -0.131 | 0.595 | -0.131
+2 | -6.666 | -7.254 | -0.128 | 0.585 | -0.131
+3 | -6.571 | -8.120 | 0.842 | 0.576 | -0.131
+4 | -6.559 | -7.883 | 0.618 | 0.575 | -0.131
+5 | -6.535 | -7.105 | -0.134 | 0.573 | -0.131
+6 | -5.381 | -5.892 | -0.091 | 0.472 | -0.131
+7 | -5.145 | -5.594 | -0.133 | 0.451 | -0.131
+8 | -5.049 | -5.492 | -0.130 | 0.443 | -0.131
+9 | -4.617 | -5.020 | -0.133 | 0.405 | -0.131

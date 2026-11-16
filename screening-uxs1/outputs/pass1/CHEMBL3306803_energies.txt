@@ -1,0 +1,16 @@
+ligand: CHEMBL3306803 (LUMATEPERONE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.687 | -9.934 | -0.812 | 2.247 | -0.812
+2 | -7.386 | -8.827 | -1.530 | 2.159 | -0.812
+3 | -7.315 | -8.009 | -2.257 | 2.138 | -0.812
+4 | -7.059 | -8.476 | -1.458 | 2.063 | -0.812
+5 | -7.008 | -7.254 | -2.614 | 2.048 | -0.812
+6 | -6.946 | -7.104 | -2.684 | 2.030 | -0.812
+7 | -6.910 | -7.097 | -2.645 | 2.020 | -0.812
+8 | -6.837 | -8.897 | -0.750 | 1.998 | -0.812
+9 | -6.782 | -7.403 | -2.173 | 1.982 | -0.812

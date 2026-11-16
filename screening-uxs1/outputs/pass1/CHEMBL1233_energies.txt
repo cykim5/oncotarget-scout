@@ -1,0 +1,16 @@
+ligand: CHEMBL1233 (CARISOPRODOL)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.523 | -8.429 | -0.964 | 2.906 | -0.964
+2 | -5.502 | -8.748 | -0.613 | 2.895 | -0.964
+3 | -5.430 | -8.615 | -0.636 | 2.857 | -0.964
+4 | -5.390 | -8.072 | -1.117 | 2.836 | -0.964
+5 | -5.138 | -7.759 | -1.046 | 2.703 | -0.964
+6 | -4.942 | -7.353 | -1.153 | 2.600 | -0.964
+7 | -4.922 | -7.456 | -1.020 | 2.590 | -0.964
+8 | -4.715 | -7.415 | -0.745 | 2.481 | -0.964
+9 | -4.604 | -7.215 | -0.775 | 2.422 | -0.964

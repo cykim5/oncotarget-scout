@@ -1,0 +1,16 @@
+ligand: CHEMBL2104136 (CLOMACRAN PHOSPHATE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.583 | -6.889 | -0.863 | 1.306 | -0.863
+2 | -5.419 | -6.959 | -0.590 | 1.267 | -0.863
+3 | -5.340 | -7.030 | -0.421 | 1.249 | -0.863
+4 | -5.292 | -6.577 | -0.817 | 1.238 | -0.863
+5 | -5.209 | -6.848 | -0.442 | 1.218 | -0.863
+6 | -5.188 | -6.724 | -0.539 | 1.213 | -0.863
+7 | -5.141 | -6.747 | -0.460 | 1.202 | -0.863
+8 | -5.040 | -6.796 | -0.286 | 1.179 | -0.863
+9 | -4.840 | -6.502 | -0.333 | 1.132 | -0.863

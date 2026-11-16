@@ -1,0 +1,16 @@
+ligand: CHEMBL1515611 (BROMISOVALUM)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.422 | -6.056 | -0.096 | 0.634 | -0.096
+2 | -5.122 | -5.677 | -0.140 | 0.599 | -0.096
+3 | -5.021 | -5.594 | -0.109 | 0.587 | -0.096
+4 | -5.004 | -5.544 | -0.141 | 0.585 | -0.096
+5 | -4.747 | -5.270 | -0.128 | 0.555 | -0.096
+6 | -4.662 | -5.165 | -0.138 | 0.545 | -0.096
+7 | -4.151 | -4.588 | -0.144 | 0.485 | -0.096
+8 | -4.126 | -4.585 | -0.119 | 0.482 | -0.096
+9 | -4.057 | -4.511 | -0.117 | 0.474 | -0.096

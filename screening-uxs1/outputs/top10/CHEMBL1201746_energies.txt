@@ -1,0 +1,16 @@
+ligand: CHEMBL1201746 (PRALATREXATE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 8
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -8.281 | -14.091 | -1.445 | 5.809 | -1.445
+2 | -8.237 | -14.331 | -1.129 | 5.778 | -1.445
+3 | -8.155 | -13.929 | -1.391 | 5.721 | -1.445
+4 | -8.069 | -13.917 | -1.258 | 5.660 | -1.445
+5 | -7.845 | -13.540 | -1.253 | 5.503 | -1.445
+6 | -7.838 | -13.303 | -1.478 | 5.498 | -1.445
+7 | -7.801 | -13.520 | -1.199 | 5.473 | -1.445
+8 | -7.795 | -13.198 | -1.511 | 5.469 | -1.445
+9 | -7.681 | -13.024 | -1.491 | 5.389 | -1.445

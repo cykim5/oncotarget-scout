@@ -1,0 +1,16 @@
+ligand: CHEMBL1481 (GLIMEPIRIDE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 8
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.772 | -9.939 | -2.640 | 3.167 | -2.640
+2 | -6.694 | -9.977 | -2.487 | 3.131 | -2.640
+3 | -6.637 | -10.033 | -2.348 | 3.104 | -2.640
+4 | -6.419 | -10.632 | -1.430 | 3.002 | -2.640
+5 | -6.385 | -10.148 | -1.863 | 2.986 | -2.640
+6 | -6.280 | -10.106 | -1.751 | 2.937 | -2.640
+7 | -6.268 | -10.029 | -1.810 | 2.931 | -2.640
+8 | -6.240 | -9.169 | -2.629 | 2.918 | -2.640
+9 | -6.235 | -9.384 | -2.407 | 2.916 | -2.640

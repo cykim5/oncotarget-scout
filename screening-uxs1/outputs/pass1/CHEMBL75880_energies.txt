@@ -1,0 +1,16 @@
+ligand: CHEMBL75880 (PERHEXILINE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.795 | -7.151 | -1.134 | 1.355 | -1.134
+2 | -5.696 | -7.070 | -1.092 | 1.332 | -1.134
+3 | -5.677 | -7.197 | -0.942 | 1.328 | -1.134
+4 | -5.652 | -6.976 | -1.131 | 1.322 | -1.134
+5 | -5.651 | -7.130 | -0.976 | 1.321 | -1.134
+6 | -5.628 | -6.966 | -1.112 | 1.316 | -1.134
+7 | -5.583 | -6.882 | -1.141 | 1.306 | -1.134
+8 | -5.568 | -6.940 | -1.064 | 1.302 | -1.134
+9 | -5.518 | -6.799 | -1.143 | 1.290 | -1.134

@@ -1,0 +1,16 @@
+ligand: CHEMBL1232 (ERTAPENEM SODIUM)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -8.198 | -12.032 | -1.764 | 3.834 | -1.764
+2 | -7.851 | -11.818 | -1.469 | 3.672 | -1.764
+3 | -7.588 | -10.803 | -2.098 | 3.549 | -1.764
+4 | -7.571 | -11.192 | -1.684 | 3.541 | -1.764
+5 | -7.307 | -10.196 | -2.292 | 3.417 | -1.764
+6 | -7.011 | -9.913 | -2.141 | 3.279 | -1.764
+7 | -6.961 | -9.860 | -2.120 | 3.255 | -1.764
+8 | -6.906 | -10.320 | -1.581 | 3.230 | -1.764
+9 | -6.871 | -10.546 | -1.303 | 3.213 | -1.764

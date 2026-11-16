@@ -1,0 +1,16 @@
+ligand: CHEMBL843 (ROSIGLITAZONE MALEATE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.357 | -8.958 | -1.991 | 2.601 | -1.991
+2 | -6.169 | -10.152 | -0.532 | 2.524 | -1.991
+3 | -5.809 | -8.240 | -1.937 | 2.377 | -1.991
+4 | -5.568 | -7.728 | -2.109 | 2.279 | -1.991
+5 | -5.323 | -7.470 | -2.022 | 2.178 | -1.991
+6 | -5.199 | -8.441 | -0.876 | 2.127 | -1.991
+7 | -5.127 | -7.246 | -1.969 | 2.098 | -1.991
+8 | -5.102 | -8.529 | -0.651 | 2.088 | -1.991
+9 | -5.094 | -7.416 | -1.754 | 2.085 | -1.991

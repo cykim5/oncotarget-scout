@@ -1,0 +1,16 @@
+ligand: CHEMBL297302 (BENPERIDOL)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.304 | -9.866 | -0.713 | 2.562 | -0.713
+2 | -7.048 | -9.209 | -1.024 | 2.472 | -0.713
+3 | -6.966 | -9.231 | -0.890 | 2.443 | -0.713
+4 | -6.828 | -8.968 | -0.967 | 2.395 | -0.713
+5 | -6.775 | -9.053 | -0.812 | 2.377 | -0.713
+6 | -6.693 | -8.680 | -1.073 | 2.348 | -0.713
+7 | -6.665 | -9.034 | -0.681 | 2.338 | -0.713
+8 | -6.503 | -8.416 | -1.080 | 2.281 | -0.713
+9 | -6.202 | -8.065 | -1.025 | 2.175 | -0.713

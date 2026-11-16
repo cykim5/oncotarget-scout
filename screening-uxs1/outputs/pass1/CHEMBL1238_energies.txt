@@ -1,0 +1,16 @@
+ligand: CHEMBL1238 (AZELAIC ACID)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.696 | -8.693 | -0.233 | 2.997 | -0.233
+2 | -5.564 | -8.520 | -0.205 | 2.928 | -0.233
+3 | -5.129 | -7.779 | -0.281 | 2.698 | -0.233
+4 | -4.958 | -7.335 | -0.465 | 2.609 | -0.233
+5 | -4.901 | -7.316 | -0.398 | 2.579 | -0.233
+6 | -4.892 | -7.332 | -0.368 | 2.574 | -0.233
+7 | -4.701 | -7.121 | -0.287 | 2.474 | -0.233
+8 | -4.536 | -6.323 | -0.832 | 2.386 | -0.233
+9 | -4.481 | -6.382 | -0.690 | 2.358 | -0.233

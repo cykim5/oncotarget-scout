@@ -1,0 +1,16 @@
+ligand: CHEMBL1200577 (CYSTEAMINE BITARTRATE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.484 | -7.086 | -0.891 | 1.603 | -0.891
+2 | -5.283 | -6.734 | -0.985 | 1.544 | -0.891
+3 | -5.273 | -6.897 | -0.809 | 1.541 | -0.891
+4 | -5.242 | -7.174 | -0.491 | 1.532 | -0.891
+5 | -4.789 | -6.511 | -0.569 | 1.400 | -0.891
+6 | -4.534 | -5.702 | -1.048 | 1.325 | -0.891
+7 | -4.448 | -5.523 | -1.116 | 1.300 | -0.891
+8 | -4.438 | -5.542 | -1.085 | 1.297 | -0.891
+9 | -4.271 | -5.441 | -0.969 | 1.248 | -0.891

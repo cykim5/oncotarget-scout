@@ -1,0 +1,16 @@
+ligand: CHEMBL567 (PERPHENAZINE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.870 | -8.100 | -1.247 | 2.230 | -1.247
+2 | -5.737 | -8.272 | -0.892 | 2.180 | -1.247
+3 | -5.677 | -8.120 | -0.960 | 2.157 | -1.247
+4 | -5.489 | -8.171 | -0.651 | 2.086 | -1.247
+5 | -5.444 | -8.194 | -0.565 | 2.069 | -1.247
+6 | -5.411 | -8.177 | -0.538 | 2.056 | -1.247
+7 | -5.405 | -8.054 | -0.651 | 2.054 | -1.247
+8 | -5.126 | -7.809 | -0.511 | 1.948 | -1.247
+9 | -5.106 | -8.089 | -0.204 | 1.940 | -1.247

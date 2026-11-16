@@ -1,0 +1,16 @@
+ligand: CHEMBL1560089 (XANTHINOL NIACINATE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.165 | -8.688 | -0.352 | 2.523 | -0.352
+2 | -6.010 | -8.361 | -0.460 | 2.459 | -0.352
+3 | -5.906 | -7.885 | -0.789 | 2.417 | -0.352
+4 | -5.745 | -7.788 | -0.659 | 2.351 | -0.352
+5 | -5.713 | -7.862 | -0.541 | 2.338 | -0.352
+6 | -5.637 | -7.732 | -0.564 | 2.307 | -0.352
+7 | -5.618 | -7.458 | -0.810 | 2.299 | -0.352
+8 | -5.507 | -7.090 | -1.023 | 2.254 | -0.352
+9 | -5.441 | -7.254 | -0.765 | 2.227 | -0.352

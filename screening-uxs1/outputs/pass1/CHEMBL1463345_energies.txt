@@ -1,0 +1,16 @@
+ligand: CHEMBL1463345 (CANRENONE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.560 | -7.560 | 0.000 | 0.000 | 0.000
+2 | -7.412 | -7.412 | 0.000 | 0.000 | 0.000
+3 | -7.287 | -7.287 | 0.000 | 0.000 | 0.000
+4 | -7.102 | -7.102 | 0.000 | 0.000 | 0.000
+5 | -7.062 | -7.062 | 0.000 | 0.000 | 0.000
+6 | -6.502 | -6.502 | 0.000 | 0.000 | 0.000
+7 | -6.393 | -6.393 | 0.000 | 0.000 | 0.000
+8 | -6.297 | -6.297 | 0.000 | 0.000 | 0.000
+9 | -6.293 | -6.293 | 0.000 | 0.000 | 0.000

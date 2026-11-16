@@ -1,0 +1,16 @@
+ligand: CHEMBL1201092 (RIVASTIGMINE TARTRATE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.560 | -7.510 | -0.440 | 1.950 | -0.440
+2 | -5.523 | -7.640 | -0.260 | 1.937 | -0.440
+3 | -5.427 | -7.258 | -0.513 | 1.904 | -0.440
+4 | -5.144 | -6.996 | -0.392 | 1.804 | -0.440
+5 | -5.096 | -6.576 | -0.748 | 1.788 | -0.440
+6 | -5.047 | -6.748 | -0.510 | 1.770 | -0.440
+7 | -5.027 | -6.806 | -0.424 | 1.763 | -0.440
+8 | -4.990 | -6.437 | -0.743 | 1.750 | -0.440
+9 | -4.922 | -6.563 | -0.525 | 1.726 | -0.440

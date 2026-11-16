@@ -1,0 +1,16 @@
+ligand: CHEMBL554 (LAPATINIB)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -9.008 | -14.800 | -1.362 | 5.792 | -1.362
+2 | -8.952 | -14.590 | -1.481 | 5.756 | -1.362
+3 | -8.906 | -14.342 | -1.653 | 5.727 | -1.362
+4 | -8.676 | -14.032 | -1.586 | 5.579 | -1.362
+5 | -8.595 | -13.758 | -1.727 | 5.527 | -1.362
+6 | -8.225 | -13.382 | -1.495 | 5.289 | -1.362
+7 | -8.193 | -13.389 | -1.435 | 5.268 | -1.362
+8 | -8.054 | -12.345 | -2.251 | 5.179 | -1.362
+9 | -7.965 | -13.077 | -1.372 | 5.122 | -1.362

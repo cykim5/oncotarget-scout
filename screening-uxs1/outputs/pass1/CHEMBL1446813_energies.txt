@@ -1,0 +1,16 @@
+ligand: CHEMBL1446813 (BETAHISTINE HYDROCHLORIDE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.295 | -6.223 | -0.253 | 0.929 | -0.253
+2 | -5.013 | -5.857 | -0.288 | 0.879 | -0.253
+3 | -4.601 | -5.601 | -0.060 | 0.807 | -0.253
+4 | -4.536 | -5.505 | -0.080 | 0.796 | -0.253
+5 | -4.249 | -5.157 | -0.091 | 0.745 | -0.253
+6 | -4.132 | -5.027 | -0.082 | 0.725 | -0.253
+7 | -4.026 | -4.907 | -0.078 | 0.706 | -0.253
+8 | -3.954 | -4.561 | -0.339 | 0.693 | -0.253
+9 | -3.920 | -4.768 | -0.093 | 0.688 | -0.253

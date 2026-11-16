@@ -1,0 +1,16 @@
+ligand: CHEMBL986 (RETINOL)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.101 | -8.062 | -0.736 | 1.962 | -0.736
+2 | -6.070 | -8.069 | -0.689 | 1.952 | -0.736
+3 | -5.926 | -7.921 | -0.646 | 1.905 | -0.736
+4 | -5.915 | -7.862 | -0.692 | 1.902 | -0.736
+5 | -5.717 | -7.714 | -0.578 | 1.838 | -0.736
+6 | -5.401 | -7.431 | -0.443 | 1.737 | -0.736
+7 | -5.286 | -7.029 | -0.693 | 1.700 | -0.736
+8 | -5.153 | -6.817 | -0.728 | 1.657 | -0.736
+9 | -5.126 | -6.766 | -0.745 | 1.648 | -0.736

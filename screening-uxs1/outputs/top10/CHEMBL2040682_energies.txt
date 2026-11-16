@@ -1,0 +1,16 @@
+ligand: CHEMBL2040682 (CICLESONIDE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 8
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -8.122 | -11.208 | -1.803 | 3.086 | -1.803
+2 | -7.627 | -10.952 | -1.376 | 2.898 | -1.803
+3 | -7.611 | -10.722 | -1.584 | 2.892 | -1.803
+4 | -7.360 | -10.798 | -1.162 | 2.797 | -1.803
+5 | -7.306 | -10.322 | -1.563 | 2.776 | -1.803
+6 | -6.912 | -9.854 | -1.487 | 2.626 | -1.803
+7 | -6.841 | -9.832 | -1.412 | 2.599 | -1.803
+8 | -6.706 | -9.875 | -1.182 | 2.548 | -1.803
+9 | -6.340 | -8.510 | -2.041 | 2.409 | -1.803

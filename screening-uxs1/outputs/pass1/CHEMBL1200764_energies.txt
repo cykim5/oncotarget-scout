@@ -1,0 +1,16 @@
+ligand: CHEMBL1200764 (METHACHOLINE CHLORIDE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -4.031 | -4.974 | -0.348 | 0.943 | -0.348
+2 | -4.000 | -5.046 | -0.238 | 0.935 | -0.348
+3 | -3.964 | -5.005 | -0.234 | 0.927 | -0.348
+4 | -3.847 | -4.648 | -0.446 | 0.899 | -0.348
+5 | -3.758 | -4.560 | -0.424 | 0.879 | -0.348
+6 | -3.650 | -4.478 | -0.374 | 0.854 | -0.348
+7 | -3.363 | -4.052 | -0.446 | 0.786 | -0.348
+8 | -3.349 | -4.083 | -0.397 | 0.783 | -0.348
+9 | -3.147 | -3.857 | -0.374 | 0.736 | -0.348

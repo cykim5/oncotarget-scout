@@ -1,0 +1,16 @@
+ligand: CHEMBL3348923 (TOVORAFENIB)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 8
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -8.339 | -11.508 | -0.590 | 3.169 | -0.590
+2 | -8.290 | -11.223 | -0.807 | 3.150 | -0.590
+3 | -8.058 | -11.561 | -0.149 | 3.062 | -0.590
+4 | -7.865 | -11.248 | -0.196 | 2.989 | -0.590
+5 | -7.789 | -10.639 | -0.700 | 2.960 | -0.590
+6 | -7.636 | -10.522 | -0.606 | 2.902 | -0.590
+7 | -7.575 | -10.365 | -0.679 | 2.878 | -0.590
+8 | -7.369 | -9.974 | -0.785 | 2.800 | -0.590
+9 | -7.350 | -9.909 | -0.825 | 2.793 | -0.590

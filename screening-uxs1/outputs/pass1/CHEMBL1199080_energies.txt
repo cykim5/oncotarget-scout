@@ -1,0 +1,16 @@
+ligand: CHEMBL1199080 (BRETYLIUM)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -4.283 | -5.034 | -0.029 | 0.751 | -0.029
+2 | -4.270 | -4.904 | -0.143 | 0.749 | -0.029
+3 | -4.136 | -4.767 | -0.123 | 0.725 | -0.029
+4 | -4.109 | -4.672 | -0.187 | 0.721 | -0.029
+5 | -3.927 | -4.519 | -0.126 | 0.689 | -0.029
+6 | -3.879 | -4.372 | -0.215 | 0.680 | -0.029
+7 | -3.868 | -4.506 | -0.069 | 0.678 | -0.029
+8 | -3.797 | -4.401 | -0.091 | 0.666 | -0.029
+9 | -3.706 | -4.233 | -0.152 | 0.650 | -0.029

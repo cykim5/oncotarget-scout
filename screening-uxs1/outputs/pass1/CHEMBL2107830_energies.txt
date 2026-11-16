@@ -1,0 +1,16 @@
+ligand: CHEMBL2107830 (EMPAGLIFLOZIN)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.648 | -11.224 | -1.095 | 3.577 | -1.095
+2 | -7.471 | -10.720 | -1.340 | 3.494 | -1.095
+3 | -7.451 | -10.974 | -1.057 | 3.485 | -1.095
+4 | -7.336 | -10.343 | -1.520 | 3.431 | -1.095
+5 | -7.120 | -10.629 | -0.916 | 3.330 | -1.095
+6 | -6.589 | -9.120 | -1.645 | 3.081 | -1.095
+7 | -6.471 | -9.047 | -1.545 | 3.026 | -1.095
+8 | -6.374 | -8.959 | -1.491 | 2.981 | -1.095
+9 | -6.256 | -9.198 | -1.079 | 2.926 | -1.095

@@ -1,0 +1,16 @@
+ligand: CHEMBL397420 (ACENOCOUMAROL)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.406 | -9.788 | -0.750 | 2.381 | -0.750
+2 | -7.105 | -9.153 | -0.987 | 2.285 | -0.750
+3 | -6.883 | -8.939 | -0.907 | 2.213 | -0.750
+4 | -6.582 | -8.528 | -0.920 | 2.116 | -0.750
+5 | -6.323 | -8.976 | -0.130 | 2.033 | -0.750
+6 | -6.064 | -8.142 | -0.622 | 1.950 | -0.750
+7 | -5.973 | -7.653 | -0.992 | 1.921 | -0.750
+8 | -5.895 | -8.249 | -0.291 | 1.895 | -0.750
+9 | -5.856 | -7.654 | -0.835 | 1.883 | -0.750

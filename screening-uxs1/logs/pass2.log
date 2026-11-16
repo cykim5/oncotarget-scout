@@ -1,0 +1,35 @@
+Pass 2: re-docking top 10 at exhaustiveness 8
+[1/10] CHEMBL1481 (GLIMEPIRIDE) ...
+  best affinity: -6.772 kcal/mol (pass 1: -9.735, 94s)
+[2/10] CHEMBL481 (IRINOTECAN) ...
+  best affinity: -9.283 kcal/mol (pass 1: -9.402, 80s)
+[3/10] CHEMBL554 (LAPATINIB) ...
+  best affinity: -9.196 kcal/mol (pass 1: -9.008, 161s)
+[4/10] CHEMBL4204794 (AVAPRITINIB) ...
+  best affinity: -8.515 kcal/mol (pass 1: -8.530, 59s)
+[5/10] CHEMBL4297503 (BALOXAVIR MARBOXIL) ...
+  best affinity: -8.533 kcal/mol (pass 1: -8.522, 94s)
+[6/10] CHEMBL1201746 (PRALATREXATE) ...
+  best affinity: -8.281 kcal/mol (pass 1: -8.420, 115s)
+[7/10] CHEMBL3348923 (TOVORAFENIB) ...
+  best affinity: -8.339 kcal/mol (pass 1: -8.362, 53s)
+[8/10] CHEMBL1091250 (INDIGOTINDISULFONATE) ...
+  best affinity: -8.363 kcal/mol (pass 1: -8.355, 22s)
+[9/10] CHEMBL3948730 (UMBRALISIB) ...
+  best affinity: -8.279 kcal/mol (pass 1: -8.279, 124s)
+[10/10] CHEMBL2040682 (CICLESONIDE) ...
+  best affinity: -8.122 kcal/mol (pass 1: -8.248, 79s)
+
+Pass 2 complete in 881s
+Top 10 (exhaustiveness 8):
+  1. IRINOTECAN (CHEMBL481): -9.283
+  2. LAPATINIB (CHEMBL554): -9.196
+  3. BALOXAVIR MARBOXIL (CHEMBL4297503): -8.533
+  4. AVAPRITINIB (CHEMBL4204794): -8.515
+  5. INDIGOTINDISULFONATE (CHEMBL1091250): -8.363
+  6. TOVORAFENIB (CHEMBL3348923): -8.339
+  7. PRALATREXATE (CHEMBL1201746): -8.281
+  8. UMBRALISIB (CHEMBL3948730): -8.279
+  9. CICLESONIDE (CHEMBL2040682): -8.122
+  10. GLIMEPIRIDE (CHEMBL1481): -6.772
+PASS2_EXIT=0

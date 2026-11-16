@@ -1,0 +1,16 @@
+ligand: CHEMBL4297503 (BALOXAVIR MARBOXIL)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 8
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -8.533 | -11.526 | -1.092 | 2.993 | -1.092
+2 | -8.008 | -10.765 | -1.145 | 2.809 | -1.092
+3 | -7.685 | -10.819 | -0.655 | 2.696 | -1.092
+4 | -7.439 | -10.661 | -0.479 | 2.609 | -1.092
+5 | -7.351 | -9.737 | -1.285 | 2.578 | -1.092
+6 | -7.061 | -9.705 | -0.925 | 2.477 | -1.092
+7 | -7.012 | -9.228 | -1.336 | 2.459 | -1.092
+8 | -6.910 | -9.136 | -1.290 | 2.424 | -1.092
+9 | -6.909 | -10.230 | -0.194 | 2.423 | -1.092

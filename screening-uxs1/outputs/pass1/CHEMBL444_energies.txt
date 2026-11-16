@@ -1,0 +1,16 @@
+ligand: CHEMBL444 (BARBITAL)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.574 | -6.226 | 0.082 | 0.652 | 0.082
+2 | -5.174 | -5.791 | 0.094 | 0.605 | 0.082
+3 | -5.124 | -5.708 | 0.066 | 0.599 | 0.082
+4 | -4.903 | -5.514 | 0.120 | 0.573 | 0.082
+5 | -4.895 | -5.466 | 0.080 | 0.572 | 0.082
+6 | -4.801 | -5.536 | 0.255 | 0.561 | 0.082
+7 | -4.702 | -5.377 | 0.207 | 0.550 | 0.082
+8 | -4.686 | -5.238 | 0.087 | 0.548 | 0.082
+9 | -4.675 | -5.262 | 0.122 | 0.547 | 0.082

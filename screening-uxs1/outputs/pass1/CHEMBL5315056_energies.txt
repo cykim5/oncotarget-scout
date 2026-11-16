@@ -1,0 +1,16 @@
+ligand: CHEMBL5315056 (NALOXONE HYDROCHLORIDE DIHYDRATE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.891 | -9.274 | -0.289 | 1.384 | -0.289
+2 | -6.803 | -7.908 | -0.377 | 1.193 | -0.289
+3 | -6.607 | -7.783 | -0.272 | 1.159 | -0.289
+4 | -6.523 | -7.758 | -0.198 | 1.144 | -0.289
+5 | -6.418 | -7.490 | -0.343 | 1.126 | -0.289
+6 | -6.227 | -7.268 | -0.340 | 1.092 | -0.289
+7 | -6.199 | -7.200 | -0.375 | 1.087 | -0.289
+8 | -6.167 | -7.188 | -0.349 | 1.082 | -0.289
+9 | -5.821 | -6.762 | -0.370 | 1.021 | -0.289

@@ -1,0 +1,16 @@
+ligand: CHEMBL328190 (LASOFOXIFENE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.192 | -9.925 | -1.827 | 2.733 | -1.827
+2 | -6.838 | -9.382 | -1.881 | 2.598 | -1.827
+3 | -6.765 | -8.503 | -2.660 | 2.571 | -1.827
+4 | -6.400 | -8.765 | -1.893 | 2.432 | -1.827
+5 | -5.968 | -7.363 | -2.700 | 2.268 | -1.827
+6 | -5.858 | -8.144 | -1.767 | 2.226 | -1.827
+7 | -5.850 | -8.003 | -1.896 | 2.223 | -1.827
+8 | -5.699 | -7.778 | -1.913 | 2.165 | -1.827
+9 | -5.562 | -7.385 | -2.118 | 2.114 | -1.827

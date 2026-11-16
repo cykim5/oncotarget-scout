@@ -1,0 +1,16 @@
+ligand: CHEMBL551466 (ACLIDINIUM BROMIDE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.907 | -11.147 | -2.251 | 4.240 | -2.251
+2 | -6.830 | -11.830 | -1.444 | 4.192 | -2.251
+3 | -6.563 | -10.627 | -2.215 | 4.028 | -2.251
+4 | -6.428 | -11.237 | -1.388 | 3.946 | -2.251
+5 | -6.234 | -10.392 | -1.921 | 3.827 | -2.251
+6 | -6.094 | -10.001 | -2.085 | 3.741 | -2.251
+7 | -6.084 | -10.258 | -1.811 | 3.734 | -2.251
+8 | -5.801 | -9.354 | -2.259 | 3.561 | -2.251
+9 | -5.786 | -9.382 | -2.206 | 3.551 | -2.251

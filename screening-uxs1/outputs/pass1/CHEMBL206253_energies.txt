@@ -1,0 +1,16 @@
+ligand: CHEMBL206253 (NETUPITANT)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -8.209 | -12.048 | -2.805 | 3.839 | -2.805
+2 | -8.189 | -12.025 | -2.800 | 3.830 | -2.805
+3 | -7.928 | -11.005 | -3.436 | 3.708 | -2.805
+4 | -7.893 | -11.174 | -3.216 | 3.691 | -2.805
+5 | -7.715 | -10.854 | -3.274 | 3.608 | -2.805
+6 | -7.668 | -10.358 | -3.701 | 3.586 | -2.805
+7 | -7.609 | -10.244 | -3.729 | 3.559 | -2.805
+8 | -7.527 | -10.198 | -3.655 | 3.520 | -2.805
+9 | -7.432 | -10.092 | -3.621 | 3.476 | -2.805

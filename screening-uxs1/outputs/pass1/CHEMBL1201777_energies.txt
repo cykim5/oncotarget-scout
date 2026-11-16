@@ -1,0 +1,16 @@
+ligand: CHEMBL1201777 (TAPENTADOL HYDROCHLORIDE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -4.942 | -6.531 | -0.750 | 1.589 | -0.750
+2 | -4.801 | -6.433 | -0.662 | 1.544 | -0.750
+3 | -4.785 | -6.450 | -0.623 | 1.539 | -0.750
+4 | -4.523 | -5.970 | -0.757 | 1.454 | -0.750
+5 | -4.469 | -6.231 | -0.425 | 1.437 | -0.750
+6 | -4.461 | -5.972 | -0.673 | 1.434 | -0.750
+7 | -4.457 | -5.951 | -0.689 | 1.433 | -0.750
+8 | -4.428 | -5.826 | -0.774 | 1.424 | -0.750
+9 | -4.342 | -5.852 | -0.635 | 1.396 | -0.750

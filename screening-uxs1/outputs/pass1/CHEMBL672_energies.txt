@@ -1,0 +1,16 @@
+ligand: CHEMBL672 (FENOFIBRATE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.104 | -8.602 | -1.446 | 2.498 | -1.446
+2 | -6.034 | -8.765 | -1.184 | 2.469 | -1.446
+3 | -5.979 | -9.280 | -0.591 | 2.447 | -1.446
+4 | -5.927 | -8.748 | -1.050 | 2.426 | -1.446
+5 | -5.853 | -8.984 | -0.710 | 2.395 | -1.446
+6 | -5.570 | -8.222 | -1.072 | 2.279 | -1.446
+7 | -5.464 | -8.066 | -1.078 | 2.236 | -1.446
+8 | -5.459 | -7.543 | -1.595 | 2.234 | -1.446
+9 | -5.445 | -7.682 | -1.436 | 2.228 | -1.446

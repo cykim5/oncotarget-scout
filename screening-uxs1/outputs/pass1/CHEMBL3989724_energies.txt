@@ -1,0 +1,16 @@
+ligand: CHEMBL3989724 (FLURAZEPAM HYDROCHLORIDE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -5.337 | -8.456 | -0.510 | 3.120 | -0.510
+2 | -5.111 | -7.821 | -0.788 | 2.988 | -0.510
+3 | -5.013 | -8.337 | -0.116 | 2.931 | -0.510
+4 | -4.883 | -8.437 | 0.190 | 2.854 | -0.510
+5 | -4.842 | -7.629 | -0.553 | 2.831 | -0.510
+6 | -4.833 | -7.995 | -0.173 | 2.826 | -0.510
+7 | -4.777 | -7.365 | -0.715 | 2.793 | -0.510
+8 | -4.702 | -7.340 | -0.620 | 2.749 | -0.510
+9 | -4.695 | -7.363 | -0.587 | 2.745 | -0.510

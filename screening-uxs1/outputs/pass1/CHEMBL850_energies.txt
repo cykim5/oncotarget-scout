@@ -1,0 +1,16 @@
+ligand: CHEMBL850 (SPARFLOXACIN)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -6.924 | -8.543 | -0.730 | 1.619 | -0.730
+2 | -6.835 | -8.581 | -0.583 | 1.598 | -0.730
+3 | -6.800 | -8.360 | -0.759 | 1.590 | -0.730
+4 | -6.594 | -8.790 | -0.077 | 1.542 | -0.730
+5 | -6.484 | -8.233 | -0.498 | 1.516 | -0.730
+6 | -6.387 | -8.018 | -0.593 | 1.494 | -0.730
+7 | -6.135 | -7.683 | -0.616 | 1.435 | -0.730
+8 | -5.813 | -7.161 | -0.742 | 1.359 | -0.730
+9 | -5.620 | -6.906 | -0.758 | 1.314 | -0.730

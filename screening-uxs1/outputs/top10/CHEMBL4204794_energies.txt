@@ -1,0 +1,16 @@
+ligand: CHEMBL4204794 (AVAPRITINIB)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 8
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -8.515 | -11.253 | -1.023 | 2.738 | -1.023
+2 | -8.162 | -10.887 | -0.922 | 2.624 | -1.023
+3 | -8.050 | -11.437 | -0.224 | 2.588 | -1.023
+4 | -7.859 | -10.767 | -0.642 | 2.527 | -1.023
+5 | -7.726 | -10.242 | -0.991 | 2.484 | -1.023
+6 | -7.696 | -10.438 | -0.755 | 2.474 | -1.023
+7 | -7.608 | -10.012 | -1.064 | 2.446 | -1.023
+8 | -7.409 | -9.691 | -1.123 | 2.382 | -1.023
+9 | -7.349 | -9.625 | -1.111 | 2.363 | -1.023

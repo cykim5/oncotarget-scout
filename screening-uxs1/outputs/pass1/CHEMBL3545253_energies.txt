@@ -1,0 +1,16 @@
+ligand: CHEMBL3545253 (FLORTAUCIPIR F 18)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.114 | -7.530 | -0.230 | 0.416 | -0.230
+2 | -6.951 | -7.307 | -0.281 | 0.406 | -0.230
+3 | -6.697 | -7.062 | -0.257 | 0.392 | -0.230
+4 | -6.665 | -7.024 | -0.261 | 0.390 | -0.230
+5 | -6.309 | -6.676 | -0.232 | 0.369 | -0.230
+6 | -6.082 | -6.428 | -0.240 | 0.356 | -0.230
+7 | -6.057 | -6.406 | -0.235 | 0.354 | -0.230
+8 | -5.738 | -6.073 | -0.231 | 0.335 | -0.230
+9 | -5.442 | -5.760 | -0.230 | 0.318 | -0.230

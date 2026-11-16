@@ -1,0 +1,15 @@
+ligand: CHEMBL1200859 (ISOSULFAN BLUE)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/screening-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 4
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol) | torsional (kcal/mol) | intra best pose (kcal/mol)
+1 | -7.267 | -11.090 | -0.861 | 3.823 | -0.861
+2 | -7.123 | -9.987 | -1.743 | 3.747 | -0.861
+3 | -7.081 | -9.761 | -1.906 | 3.725 | -0.861
+4 | -6.685 | -9.441 | -1.622 | 3.517 | -0.861
+5 | -5.994 | -8.814 | -1.194 | 3.154 | -0.861
+6 | -5.850 | -7.793 | -1.995 | 3.078 | -0.861
+7 | -5.559 | -7.717 | -1.628 | 2.925 | -0.861
+8 | -4.945 | -6.444 | -1.963 | 2.602 | -0.861
