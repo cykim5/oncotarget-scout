@@ -109,6 +109,42 @@ the natural product reference UDP-xylose (-8.796), with the size
 caveat above, since both are ~580 Da. Ranks 3-9 span only
 0.41 kcal/mol, far inside Vina's error: do not over-read that order.
 
+## Size correction, added Nov 16
+
+The size skew noted above was measured rather than left as a caveat.
+Across the 100 compounds, heavy atom count and Vina affinity correlate at
+**r = -0.73**, so size alone accounts for roughly 54 percent of the
+variation in the ranking. Vina adds up favourable contacts, and a larger
+molecule makes more of them whether or not it fits the site in a
+meaningful way. Screening a larger library with the same setup does not
+dilute this, it sharpens a ranking of molecular weight.
+
+Two corrections were applied to the existing results, with no re-docking.
+`analyze_size_bias.py` produces `outputs/pass1/results_size_corrected.csv`.
+
+**Ligand efficiency** (affinity divided by heavy atoms) inverts the list
+and puts cysteamine, betahistine and tiopronin on top at 0.49 to 0.55,
+all of them 10 to 11 heavy atoms. That is the opposite failure mode:
+ligand efficiency flatters fragments the way raw score flatters bulk.
+Neither ranking stands on its own.
+
+**Size matched comparison** is the usable one. UDP-xylose, the natural
+product, has 34 heavy atoms. Of the 26 compounds within 30 to 40 heavy
+atoms, two beat it:
+
+| Compound | Affinity (kcal/mol) | Heavy atoms | Re-dock at exh 8 |
+| --- | --- | --- | --- |
+| Glimepiride | -9.735 | 34 | collapsed to -6.772, pose was not stable |
+| Lapatinib | -9.008 | 40 | held at -9.196 |
+
+Glimepiride is already ruled out by pass 2. So lapatinib is the only
+compound in this screen that is size matched to the natural product,
+beats it, and reproduces. Irinotecan, first on the raw ranking, has 43
+heavy atoms and falls outside the band, so part of its lead is bulk.
+
+This is a narrower claim than the original top 10 and a more defensible
+one. It is still a docking prediction, and still needs a binding assay.
+
 ## What the numbers do and do not mean
 
 - The pass-1 ranking at exhaustiveness 4 is a coarse first filter.
