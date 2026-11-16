@@ -1,0 +1,16 @@
+ligand: UDP-glucuronate
+receptor: /home/hatch/workspace/projects/oncotarget-scout/docking-uxs1/receptor/uxs1_chainA.pdbqt
+center: [53.3, 27.7, 42.3]
+box_size: [24, 24, 24]
+exhaustiveness: 16
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol)
+1 | -10.266 | -18.067 | -2.447
+2 | -10.112 | -18.533 | -1.711
+3 | -10.061 | -18.101 | -2.053
+4 | -9.982 | -16.997 | -3.018
+5 | -9.926 | -17.017 | -2.900
+6 | -9.781 | -16.911 | -2.749
+7 | -9.678 | -17.333 | -2.148
+8 | -9.601 | -17.132 | -2.213
+9 | -9.339 | -16.878 | -2.005

@@ -1,0 +1,16 @@
+ligand: NAD
+receptor: /home/hatch/workspace/projects/oncotarget-scout/docking-uxs1/receptor/uxs1_chainA.pdbqt
+center: [53.3, 27.7, 42.3]
+box_size: [24, 24, 24]
+exhaustiveness: 16
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol)
+1 | -12.669 | -23.037 | -2.192
+2 | -12.218 | -22.441 | -1.968
+3 | -12.138 | -22.534 | -1.730
+4 | -12.089 | -22.519 | -1.656
+5 | -12.008 | -21.979 | -2.049
+6 | -11.732 | -21.698 | -1.828
+7 | -11.424 | -20.972 | -1.993
+8 | -11.353 | -20.409 | -2.427
+9 | -11.324 | -21.257 | -1.527

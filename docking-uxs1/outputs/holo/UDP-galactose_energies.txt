@@ -1,0 +1,16 @@
+ligand: UDP-galactose (holo receptor, NAD retained)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/docking-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 16
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol)
+1 | -7.391 | -13.008 | -2.929
+2 | -7.390 | -13.963 | -1.972
+3 | -7.330 | -13.152 | -2.678
+4 | -7.184 | -13.862 | -1.712
+5 | -7.173 | -13.120 | -2.434
+6 | -7.132 | -12.838 | -2.644
+7 | -7.111 | -13.227 | -2.217
+8 | -7.095 | -12.952 | -2.464
+9 | -6.961 | -11.367 | -3.814

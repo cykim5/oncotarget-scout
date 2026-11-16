@@ -1,0 +1,16 @@
+ligand: UDP-glucuronate (holo receptor, NAD retained)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/docking-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 16
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol)
+1 | -7.337 | -12.914 | -3.632
+2 | -7.337 | -13.429 | -3.115
+3 | -7.310 | -14.240 | -2.257
+4 | -7.257 | -13.738 | -2.667
+5 | -7.198 | -14.418 | -1.883
+6 | -7.157 | -13.944 | -2.283
+7 | -7.028 | -12.352 | -3.648
+8 | -6.996 | -12.800 | -3.145
+9 | -6.933 | -13.309 | -2.524

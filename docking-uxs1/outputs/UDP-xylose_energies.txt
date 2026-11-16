@@ -1,0 +1,16 @@
+ligand: UDP-xylose
+receptor: /home/hatch/workspace/projects/oncotarget-scout/docking-uxs1/receptor/uxs1_chainA.pdbqt
+center: [53.3, 27.7, 42.3]
+box_size: [24, 24, 24]
+exhaustiveness: 16
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol)
+1 | -10.350 | -17.308 | -1.620
+2 | -10.265 | -17.496 | -1.291
+3 | -10.204 | -16.574 | -2.110
+4 | -10.159 | -16.750 | -1.859
+5 | -9.899 | -16.542 | -1.632
+6 | -9.782 | -15.600 | -2.379
+7 | -9.611 | -15.868 | -1.824
+8 | -9.610 | -16.059 | -1.631
+9 | -9.286 | -15.689 | -1.461

@@ -1,0 +1,21 @@
+# AutoDock Vina run parameters — UXS1 docking (OncoTarget Scout)
+# Run via run_docking.py (Vina 1.2.7 Python API). Equivalent CLI config:
+receptor = ../receptor/uxs1_chainA.pdbqt
+center_x = 53.3
+center_y = 27.7
+center_z = 42.3
+size_x = 24
+size_y = 24
+size_z = 24
+exhaustiveness = 16
+num_modes = 9
+energy_range = 3
+# Box center: midpoint between the catalytic triad centroid
+# (Thr202/Tyr231/Lys235 CA in 4GLL numbering: 57.66, 29.97, 43.73)
+# and the co-crystallized NAD centroid (48.99, 25.34, 40.83).
+# Triad numbering note: the JBC paper's Thr118/Tyr147/Lys151 use the
+# construct numbering (residue 1 = full-length residue 85); 4GLL uses
+# full-length numbering, so the triad is Thr202/Tyr231/Lys235 there
+# (offset +84; all three residue types and NAD proximity confirm it).
+# Ligands (all in ../ligands/): NAD, UDP, UDP-glucuronate, UDP-xylose,
+# UDP-galactose, UMP — each as <name>.pdbqt, prepared with Meeko.

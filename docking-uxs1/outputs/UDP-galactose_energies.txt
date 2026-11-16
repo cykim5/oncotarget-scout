@@ -1,0 +1,16 @@
+ligand: UDP-galactose
+receptor: /home/hatch/workspace/projects/oncotarget-scout/docking-uxs1/receptor/uxs1_chainA.pdbqt
+center: [53.3, 27.7, 42.3]
+box_size: [24, 24, 24]
+exhaustiveness: 16
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol)
+1 | -10.003 | -17.605 | -2.086
+2 | -9.894 | -16.911 | -2.588
+3 | -9.819 | -16.444 | -2.923
+4 | -9.809 | -17.267 | -2.082
+5 | -9.561 | -16.817 | -2.096
+6 | -9.265 | -16.154 | -2.239
+7 | -9.192 | -16.244 | -2.020
+8 | -9.125 | -15.815 | -2.331
+9 | -9.028 | -16.156 | -1.820

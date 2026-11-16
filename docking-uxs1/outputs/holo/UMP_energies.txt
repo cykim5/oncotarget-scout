@@ -1,0 +1,16 @@
+ligand: UMP (holo receptor, NAD retained)
+receptor: /home/hatch/workspace/projects/oncotarget-scout/docking-uxs1/receptor/uxs1_holo.pdbqt
+center: [60.0, 23.2, 39.0]
+box_size: [24, 24, 24]
+exhaustiveness: 16
+n_poses: 9
+mode | affinity = total (kcal/mol) | intermolecular (kcal/mol) | intramolecular (kcal/mol)
+1 | -6.997 | -9.451 | -0.764
+2 | -6.832 | -9.098 | -0.894
+3 | -6.616 | -9.015 | -0.685
+4 | -6.427 | -8.703 | -0.742
+5 | -6.365 | -8.750 | -0.610
+6 | -6.314 | -8.602 | -0.690
+7 | -6.294 | -8.351 | -0.914
+8 | -6.258 | -8.325 | -0.892
+9 | -6.121 | -8.279 | -0.752
