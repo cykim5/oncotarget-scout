@@ -28,7 +28,7 @@ Both are now answered from the APIs rather than from reading. The script is
 | Gene | UniProt | SM flags true | ChEMBL targets | ChEMBL activities | Annotated mechanisms |
 | --- | --- | --- | --- | --- | --- |
 | INTS6 | Q9UL03 | none | 1 | 6 | none |
-| NFE2L2 | Q16236 | Approved Drug, High-Quality Ligand, Small Molecule Binder | 3 | 101,242 | 2 |
+| NFE2L2 | Q16236 | Approved Drug, High-Quality Ligand | 3 | 101,242 | 2 |
 | UXS1 | Q8NBZ7 | Structure with Ligand, Med-Quality Pocket | 0 | 0 | none |
 | NCAPG2 | Q86XI2 | none | 0 | 0 | none |
 | SPRR1B | P22528 | none | 0 | 0 | none |
@@ -38,7 +38,7 @@ Full flag list per gene, true flags only:
 | Gene | Flags returning true |
 | --- | --- |
 | INTS6 | PR Database Ubiquitination, PR Half-life Data |
-| NFE2L2 | SM Approved Drug, SM High-Quality Ligand, SM Small Molecule Binder, AB GO CC high conf, PR UniProt Ubiquitination, PR Database Ubiquitination |
+| NFE2L2 | SM Approved Drug, SM High-Quality Ligand, AB GO CC high conf, PR UniProt Ubiquitination, PR Database Ubiquitination, PR Small Molecule Binder |
 | UXS1 | SM Structure with Ligand, SM Med-Quality Pocket, AB UniProt SigP or TMHMM, PR Half-life Data |
 | NCAPG2 | PR Database Ubiquitination |
 | SPRR1B | AB GO CC high conf |
