@@ -1,0 +1,162 @@
+{
+  "INTS6": {
+    "symbol": "INTS6",
+    "ensembl_id": "ENSG00000102786",
+    "biotype": "protein_coding",
+    "uniprot": [
+      "Q9UL03"
+    ],
+    "tractability_true": [
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination"
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data"
+      }
+    ],
+    "tractability_all_count": 28,
+    "chembl": [
+      {
+        "chembl_id": "CHEMBL5724659",
+        "pref_name": "Integrator complex subunit 6",
+        "target_type": "SINGLE PROTEIN",
+        "activity_count": 6,
+        "mechanisms": []
+      }
+    ]
+  },
+  "NFE2L2": {
+    "symbol": "NFE2L2",
+    "ensembl_id": "ENSG00000116044",
+    "biotype": "protein_coding",
+    "uniprot": [
+      "Q16236"
+    ],
+    "tractability_true": [
+      {
+        "modality": "SM",
+        "label": "Approved Drug"
+      },
+      {
+        "modality": "SM",
+        "label": "High-Quality Ligand"
+      },
+      {
+        "modality": "AB",
+        "label": "GO CC high conf"
+      },
+      {
+        "modality": "PR",
+        "label": "UniProt Ubiquitination"
+      },
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination"
+      },
+      {
+        "modality": "PR",
+        "label": "Small Molecule Binder"
+      }
+    ],
+    "tractability_all_count": 28,
+    "chembl": [
+      {
+        "chembl_id": "CHEMBL1075094",
+        "pref_name": "Nuclear factor erythroid 2-related factor 2",
+        "target_type": "SINGLE PROTEIN",
+        "activity_count": 96441,
+        "mechanisms": [
+          {
+            "molecule_chembl_id": "CHEMBL4303525",
+            "action_type": "ACTIVATOR",
+            "mechanism_of_action": "Nuclear factor erythroid 2-related factor 2 activator",
+            "max_phase": 4
+          }
+        ]
+      },
+      {
+        "chembl_id": "CHEMBL3038498",
+        "pref_name": "Keap1/Nrf2",
+        "target_type": "PROTEIN-PROTEIN INTERACTION",
+        "activity_count": 4799,
+        "mechanisms": [
+          {
+            "molecule_chembl_id": "CHEMBL1762621",
+            "action_type": "INHIBITOR",
+            "mechanism_of_action": "Keap1/Nrf2 inhibitor",
+            "max_phase": 3
+          }
+        ]
+      },
+      {
+        "chembl_id": "CHEMBL5483087",
+        "pref_name": "NRF2-MAFG",
+        "target_type": "PROTEIN COMPLEX",
+        "activity_count": 2,
+        "mechanisms": []
+      }
+    ]
+  },
+  "UXS1": {
+    "symbol": "UXS1",
+    "ensembl_id": "ENSG00000115652",
+    "biotype": "protein_coding",
+    "uniprot": [
+      "Q8NBZ7"
+    ],
+    "tractability_true": [
+      {
+        "modality": "SM",
+        "label": "Structure with Ligand"
+      },
+      {
+        "modality": "SM",
+        "label": "Med-Quality Pocket"
+      },
+      {
+        "modality": "AB",
+        "label": "UniProt SigP or TMHMM"
+      },
+      {
+        "modality": "PR",
+        "label": "Half-life Data"
+      }
+    ],
+    "tractability_all_count": 28,
+    "chembl": []
+  },
+  "NCAPG2": {
+    "symbol": "NCAPG2",
+    "ensembl_id": "ENSG00000146918",
+    "biotype": "protein_coding",
+    "uniprot": [
+      "Q86XI2"
+    ],
+    "tractability_true": [
+      {
+        "modality": "PR",
+        "label": "Database Ubiquitination"
+      }
+    ],
+    "tractability_all_count": 28,
+    "chembl": []
+  },
+  "SPRR1B": {
+    "symbol": "SPRR1B",
+    "ensembl_id": "ENSG00000169469",
+    "biotype": "protein_coding",
+    "uniprot": [
+      "P22528"
+    ],
+    "tractability_true": [
+      {
+        "modality": "AB",
+        "label": "GO CC high conf"
+      }
+    ],
+    "tractability_all_count": 28,
+    "chembl": []
+  }
+}

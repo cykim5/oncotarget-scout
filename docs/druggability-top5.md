@@ -29,10 +29,20 @@ The ranking order and the druggability order are different, and that is the poin
 
 In chat on Nov 15, IMPDH2 was described as one of the top 5 with an approved inhibitor. That was wrong on the rank. IMPDH2 is rank 20 of 20 in the Phase 3 shortlist, not top 5. The inhibitor claim itself is right: mycophenolic acid (CellCept / Myfortic) is a potent, reversible IMPDH inhibitor, approved since 1995 for transplant immunosuppression. So IMPDH2 is the most druggable gene in the full 20, just not in the top 5. It is worth one line in any writeup, with the rank stated correctly.
 
+## Follow-up, Nov 16
+
+The Open Targets and ChEMBL check is in
+[druggability-open-targets-chembl.md](druggability-open-targets-chembl.md). It
+confirmed every verdict in the table above and found one thing worth flagging
+here: the only approved drug behind the NFE2L2 tractability flag is
+omaveloxolone, an NRF2 activator. Bardoxolone methyl, phase 3, also raises NRF2.
+Both push NRF2 the wrong way for this subgroup, where the aim is to inhibit it.
+ML385 is still the only inhibitor in hand and still a research tool.
+
 ## Limits of this check
 
-- No Open Targets tractability score was retrieved for any of the five. Web searches on Nov 15 returned papers and GeneCards pages, not the Open Targets target pages, so the verdicts above rest on protein class, published structures, and known compounds, not on a scored tractability field. Pulling the Open Targets scores would be the next verification step before this table goes into a preprint or application.
-- "No known inhibitor found" means none turned up in the searches run Nov 15 (ChEMBL / Open Targets / literature). It is not proof that none exists. A ChEMBL target search per gene is the check that would settle it.
+- ~~No Open Targets tractability score was retrieved for any of the five.~~ Closed on Nov 16: the flags were pulled from the Open Targets API and every verdict above held. See [druggability-open-targets-chembl.md](druggability-open-targets-chembl.md). UXS1 and NFE2L2 are the only two genes of the five with any small molecule flag true.
+- ~~"No known inhibitor found" means none turned up in the searches run Nov 15.~~ Closed on Nov 16: ChEMBL was queried by UniProt accession per gene. UXS1, NCAPG2 and SPRR1B have no ChEMBL target entry at all, so for those three it is now a database answer rather than a failed search. INTS6 has one target entry with 6 activities and no annotated mechanism.
 - Druggability does not change the Phase 3 ranking. It is a separate column to add to the shortlist, for deciding what to do after the CRISPR validation, not a reason to reorder the ranking itself.
 
 ## Sources checked Nov 15
