@@ -26,3 +26,7 @@ __pycache__/
 screening-full-uxs1/ligands/
 screening-full-uxs1/outputs/*_out.pdbqt
 screening-full-uxs1/outputs/*_energies.txt
+screening-full-uxs1/outputs/redock/
+screening-full-uxs1/outputs/recentred/
+screening-full-uxs1/logs/*.log
+!screening-full-uxs1/logs/*.clean.log

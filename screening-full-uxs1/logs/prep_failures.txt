@@ -1,0 +1,24 @@
+CHEMBL113178	SELENOMETHIONINE	Meeko write failed: atom number 1 has None type, mol name: CHEMBL113178
+atom number 1 has None type, mol name: CHEMBL113178
+
+CHEMBL1200625	STRONTIUM CHLORIDE SR 89	Meeko write failed: atom number 0 has None type, mol name: CHEMBL1200625
+atom number 0 has None type, mol name: CHEMBL1200625
+
+CHEMBL1201054	SELENOMETHIONINE SE 75	Meeko write failed: atom number 1 has None type, mol name: CHEMBL1201054
+atom number 1 has None type, mol name: CHEMBL1201054
+
+CHEMBL1330792	ACETARSONE	Meeko write failed: atom number 7 has None type, mol name: CHEMBL1330792
+atom number 0 has non finite charge, mol name: CHEMBL1330792, charg
+CHEMBL2107816	RADIUM RA 223 DICHLORIDE	Meeko write failed: atom number 1 has None type, mol name: CHEMBL2107816
+atom number 0 has non finite charge, mol name: CHEMBL2107816, charg
+CHEMBL2111187	RADIUM DICHLORIDE	Meeko write failed: atom number 1 has None type, mol name: CHEMBL2111187
+atom number 0 has non finite charge, mol name: CHEMBL2111187, charg
+CHEMBL2368861	BUPRENORPHINE HYDROCHLORIDE	ETKDG embedding failed
+CHEMBL2368924	DOLASETRON MESYLATE	ETKDG embedding failed
+CHEMBL2368925	DOLASETRON	ETKDG embedding failed
+CHEMBL3833382	PRAJMALIUM	ETKDG embedding failed
+CHEMBL3833388	PRAJMALIUM BITARTRATE	ETKDG embedding failed
+CHEMBL511142	BUPRENORPHINE	ETKDG embedding failed
+CHEMBL5483015	ARSENIC TRIOXIDE	Meeko write failed: atom number 1 has None type, mol name: CHEMBL5483015
+atom number 2 has None type, mol name: CHEMBL5483015
+atom number 0 

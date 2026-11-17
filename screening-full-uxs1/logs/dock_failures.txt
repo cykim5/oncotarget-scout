@@ -1,0 +1,30 @@
+CHEMBL325041	BORTEZOMIB	
+
+PDBQT parsing error: Atom type B is not a valid AutoDock type (atom types are case-sensitive).
+ > ATOM     10  B   UNL     1      -3.644   0.784  -1.621  1.00  0.00    +0.475 B 
+
+CHEMBL3317857	VABORBACTAM	
+
+PDBQT parsing error: Atom type B is not a valid AutoDock type (atom types are case-sensitive).
+ > ATOM      5  B   UNL     1      -1.682  -0.467  -1.958  1.00  0.00    +0.478 B 
+
+CHEMBL3545432	IXAZOMIB CITRATE	
+
+PDBQT parsing error: Atom type B is not a valid AutoDock type (atom types are case-sensitive).
+ > ATOM     23  B   UNL     1      -1.635   1.106   0.777  1.00  0.00    +0.552 B 
+
+CHEMBL443052	TAVABOROLE	
+
+PDBQT parsing error: Atom type B is not a valid AutoDock type (atom types are case-sensitive).
+ > ATOM      1  B   UNL     1       1.869   0.481  -0.622  1.00  0.00    +0.491 B 
+
+CHEMBL484785	CRISABOROLE	
+
+PDBQT parsing error: Atom type B is not a valid AutoDock type (atom types are case-sensitive).
+ > ATOM      9  B   UNL     1      -4.402  -0.092   1.062  1.00  0.00    +0.491 B 
+
+CHEMBL5315122	BORTEZOMIB D-MANNITOL	
+
+PDBQT parsing error: Atom type B is not a valid AutoDock type (atom types are case-sensitive).
+ > ATOM      1  B   UNL     1      -1.775   1.623  -0.448  1.00  0.00    +0.481 B 
+

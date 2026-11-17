@@ -1,0 +1,145 @@
+=== prepare started Mon Nov 16 18:40:18 EST 2026 ===
+Preparing 2757 ligands
+  [100/2757] ok 100, failed 0, about 1 min left
+  [200/2757] ok 199, failed 1, about 1 min left
+  [300/2757] ok 299, failed 1, about 1 min left
+  [400/2757] ok 398, failed 2, about 1 min left
+  [500/2757] ok 498, failed 2, about 1 min left
+  [600/2757] ok 597, failed 3, about 1 min left
+  [700/2757] ok 697, failed 3, about 1 min left
+  [800/2757] ok 797, failed 3, about 1 min left
+  [900/2757] ok 896, failed 4, about 1 min left
+  [1000/2757] ok 996, failed 4, about 1 min left
+  [1100/2757] ok 1096, failed 4, about 1 min left
+  [1200/2757] ok 1196, failed 4, about 1 min left
+  [1300/2757] ok 1296, failed 4, about 1 min left
+  [1400/2757] ok 1396, failed 4, about 1 min left
+  [1500/2757] ok 1496, failed 4, about 1 min left
+  [1600/2757] ok 1594, failed 6, about 1 min left
+  [1700/2757] ok 1691, failed 9, about 1 min left
+  [1800/2757] ok 1791, failed 9, about 1 min left
+  [1900/2757] ok 1891, failed 9, about 1 min left
+  [2000/2757] ok 1989, failed 11, about 1 min left
+  [2100/2757] ok 2089, failed 11, about 1 min left
+  [2200/2757] ok 2189, failed 11, about 1 min left
+  [2300/2757] ok 2288, failed 12, about 1 min left
+  [2400/2757] ok 2387, failed 13, about 1 min left
+  [2500/2757] ok 2487, failed 13, about 0 min left
+  [2600/2757] ok 2587, failed 13, about 0 min left
+  [2700/2757] ok 2687, failed 13, about 0 min left
+Prepared 2744 / 2757. Failures: 13
+=== screen started Mon Nov 16 18:44:17 EST 2026 ===
+Full screen: 2757 ligands, exhaustiveness 4
+  [25/2757] 25 docked, 0 failed, 2.1s each, about 1.6 h left
+  [50/2757] 50 docked, 0 failed, 2.5s each, about 1.9 h left
+  [75/2757] 75 docked, 0 failed, 2.4s each, about 1.8 h left
+  [100/2757] 100 docked, 0 failed, 2.5s each, about 1.8 h left
+  [126/2757] 125 docked, 1 failed, 2.5s each, about 1.8 h left
+  [151/2757] 150 docked, 1 failed, 2.7s each, about 1.9 h left
+  [176/2757] 175 docked, 1 failed, 2.7s each, about 2.0 h left
+  [201/2757] 200 docked, 1 failed, 2.8s each, about 2.0 h left
+  [226/2757] 225 docked, 1 failed, 2.8s each, about 2.0 h left
+  [251/2757] 250 docked, 1 failed, 2.8s each, about 1.9 h left
+  [276/2757] 275 docked, 1 failed, 2.8s each, about 1.9 h left
+  [301/2757] 300 docked, 1 failed, 2.8s each, about 1.9 h left
+  [326/2757] 325 docked, 1 failed, 2.9s each, about 1.9 h left
+  [352/2757] 350 docked, 2 failed, 3.0s each, about 2.0 h left
+  [377/2757] 375 docked, 2 failed, 3.0s each, about 2.0 h left
+  [402/2757] 400 docked, 2 failed, 3.0s each, about 1.9 h left
+  [427/2757] 425 docked, 2 failed, 3.0s each, about 1.9 h left
+  [452/2757] 450 docked, 2 failed, 3.1s each, about 2.0 h left
+  [477/2757] 475 docked, 2 failed, 3.1s each, about 2.0 h left
+  [502/2757] 500 docked, 2 failed, 3.2s each, about 2.0 h left
+  [527/2757] 525 docked, 2 failed, 3.3s each, about 2.0 h left
+  [552/2757] 550 docked, 2 failed, 3.3s each, about 2.0 h left
+  [578/2757] 575 docked, 3 failed, 3.3s each, about 2.0 h left
+  [603/2757] 600 docked, 3 failed, 3.3s each, about 2.0 h left
+  [628/2757] 625 docked, 3 failed, 3.3s each, about 1.9 h left
+  [653/2757] 650 docked, 3 failed, 3.5s each, about 2.0 h left
+  [678/2757] 675 docked, 3 failed, 11.4s each, about 6.6 h left
+  [703/2757] 700 docked, 3 failed, 11.1s each, about 6.3 h left
+  [728/2757] 725 docked, 3 failed, 10.9s each, about 6.1 h left
+  [753/2757] 750 docked, 3 failed, 10.6s each, about 5.9 h left
+  [778/2757] 775 docked, 3 failed, 10.4s each, about 5.7 h left
+  [803/2757] 800 docked, 3 failed, 10.2s each, about 5.5 h left
+  [828/2757] 825 docked, 3 failed, 9.9s each, about 5.3 h left
+  [853/2757] 850 docked, 3 failed, 9.8s each, about 5.2 h left
+  [878/2757] 875 docked, 3 failed, 9.6s each, about 5.0 h left
+  [904/2757] 900 docked, 4 failed, 9.4s each, about 4.8 h left
+  [929/2757] 925 docked, 4 failed, 9.2s each, about 4.7 h left
+  [954/2757] 950 docked, 4 failed, 9.1s each, about 4.6 h left
+  [979/2757] 975 docked, 4 failed, 9.0s each, about 4.4 h left
+  [1004/2757] 1000 docked, 4 failed, 8.8s each, about 4.3 h left
+  [1029/2757] 1025 docked, 4 failed, 8.7s each, about 4.2 h left
+  [1054/2757] 1050 docked, 4 failed, 8.6s each, about 4.1 h left
+  [1079/2757] 1075 docked, 4 failed, 8.5s each, about 4.0 h left
+  [1104/2757] 1100 docked, 4 failed, 8.4s each, about 3.9 h left
+  [1129/2757] 1125 docked, 4 failed, 8.3s each, about 3.8 h left
+  [1154/2757] 1150 docked, 4 failed, 8.2s each, about 3.7 h left
+  [1179/2757] 1175 docked, 4 failed, 8.1s each, about 3.6 h left
+  [1204/2757] 1200 docked, 4 failed, 8.1s each, about 3.5 h left
+  [1229/2757] 1225 docked, 4 failed, 8.1s each, about 3.4 h left
+  [1254/2757] 1250 docked, 4 failed, 8.0s each, about 3.3 h left
+  [1279/2757] 1275 docked, 4 failed, 7.9s each, about 3.2 h left
+  [1304/2757] 1300 docked, 4 failed, 7.8s each, about 3.2 h left
+  [1329/2757] 1325 docked, 4 failed, 7.8s each, about 3.1 h left
+  [1354/2757] 1350 docked, 4 failed, 7.8s each, about 3.0 h left
+  [1379/2757] 1375 docked, 4 failed, 7.7s each, about 2.9 h left
+  [1404/2757] 1400 docked, 4 failed, 7.6s each, about 2.9 h left
+  [1429/2757] 1425 docked, 4 failed, 7.6s each, about 2.8 h left
+  [1454/2757] 1450 docked, 4 failed, 7.5s each, about 2.7 h left
+  [1479/2757] 1475 docked, 4 failed, 7.5s each, about 2.7 h left
+  [1504/2757] 1500 docked, 4 failed, 9.6s each, about 3.3 h left
+  [1529/2757] 1525 docked, 4 failed, 10.1s each, about 3.4 h left
+  [1554/2757] 1550 docked, 4 failed, 9.9s each, about 3.3 h left
+  [1580/2757] 1575 docked, 5 failed, 9.8s each, about 3.2 h left
+  [1606/2757] 1600 docked, 6 failed, 9.7s each, about 3.1 h left
+  [1631/2757] 1625 docked, 6 failed, 9.6s each, about 3.0 h left
+  [1656/2757] 1650 docked, 6 failed, 9.6s each, about 2.9 h left
+  [1684/2757] 1675 docked, 9 failed, 9.5s each, about 2.8 h left
+  [1709/2757] 1700 docked, 9 failed, 9.4s each, about 2.7 h left
+  [1734/2757] 1725 docked, 9 failed, 9.3s each, about 2.6 h left
+  [1759/2757] 1750 docked, 9 failed, 9.2s each, about 2.6 h left
+  [1784/2757] 1775 docked, 9 failed, 9.1s each, about 2.5 h left
+  [1809/2757] 1800 docked, 9 failed, 9.1s each, about 2.4 h left
+  [1835/2757] 1825 docked, 10 failed, 9.0s each, about 2.3 h left
+  [1861/2757] 1850 docked, 11 failed, 9.0s each, about 2.2 h left
+  [1886/2757] 1875 docked, 11 failed, 8.9s each, about 2.2 h left
+  [1912/2757] 1900 docked, 12 failed, 8.8s each, about 2.1 h left
+  [1937/2757] 1925 docked, 12 failed, 8.8s each, about 2.0 h left
+  [1964/2757] 1950 docked, 14 failed, 8.7s each, about 1.9 h left
+  [1989/2757] 1975 docked, 14 failed, 8.6s each, about 1.8 h left
+  [2014/2757] 2000 docked, 14 failed, 8.6s each, about 1.8 h left
+  [2039/2757] 2025 docked, 14 failed, 8.5s each, about 1.7 h left
+  [2064/2757] 2050 docked, 14 failed, 8.5s each, about 1.6 h left
+  [2089/2757] 2075 docked, 14 failed, 8.4s each, about 1.6 h left
+  [2114/2757] 2100 docked, 14 failed, 8.4s each, about 1.5 h left
+  [2139/2757] 2125 docked, 14 failed, 8.4s each, about 1.4 h left
+  [2165/2757] 2150 docked, 15 failed, 8.3s each, about 1.4 h left
+  [2190/2757] 2175 docked, 15 failed, 8.2s each, about 1.3 h left
+  [2215/2757] 2200 docked, 15 failed, 8.2s each, about 1.2 h left
+  [2240/2757] 2225 docked, 15 failed, 8.2s each, about 1.2 h left
+  [2266/2757] 2250 docked, 16 failed, 8.1s each, about 1.1 h left
+  [2291/2757] 2275 docked, 16 failed, 8.1s each, about 1.0 h left
+  [2317/2757] 2300 docked, 17 failed, 8.0s each, about 1.0 h left
+  [2343/2757] 2325 docked, 18 failed, 8.0s each, about 0.9 h left
+  [2369/2757] 2350 docked, 19 failed, 8.0s each, about 0.9 h left
+  [2394/2757] 2375 docked, 19 failed, 7.9s each, about 0.8 h left
+  [2419/2757] 2400 docked, 19 failed, 7.9s each, about 0.7 h left
+  [2444/2757] 2425 docked, 19 failed, 7.8s each, about 0.7 h left
+  [2469/2757] 2450 docked, 19 failed, 7.8s each, about 0.6 h left
+  [2494/2757] 2475 docked, 19 failed, 7.7s each, about 0.6 h left
+  [2519/2757] 2500 docked, 19 failed, 7.7s each, about 0.5 h left
+  [2544/2757] 2525 docked, 19 failed, 7.6s each, about 0.5 h left
+  [2569/2757] 2550 docked, 19 failed, 7.6s each, about 0.4 h left
+  [2594/2757] 2575 docked, 19 failed, 7.6s each, about 0.3 h left
+  [2619/2757] 2600 docked, 19 failed, 7.5s each, about 0.3 h left
+  [2644/2757] 2625 docked, 19 failed, 7.5s each, about 0.2 h left
+  [2669/2757] 2650 docked, 19 failed, 7.4s each, about 0.2 h left
+  [2694/2757] 2675 docked, 19 failed, 7.4s each, about 0.1 h left
+  [2719/2757] 2700 docked, 19 failed, 7.4s each, about 0.1 h left
+  [2744/2757] 2725 docked, 19 failed, 7.3s each, about 0.0 h left
+docked 2738, skipped 0, failed 19
+ranked 2738 compounds into /Users/clairekim/oncotarget-scout-work/screening-full-uxs1/outputs/results_full.csv
+total wall time 5.56 h
+=== finished Tue Nov 17 00:18:00 EST 2026 ===
