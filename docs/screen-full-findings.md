@@ -1,5 +1,23 @@
 # Full approved drug screen against UXS1: what it found, and what it did not
 
+> **Correction, 2026-11-17.** The conclusion below rests on docking into
+> PDB 4GLL, and 4GLL was solved with NAD bound but no UDP. With the
+> substrate site empty, ARG272 relaxed into it: 14 of the 25 atoms of the
+> crystallographic UDP position overlap that residue, the worst by 0.57 A,
+> and 1.42 A of the overlap is backbone, which no flexible side chain
+> setting can move. The superposition itself is sound, checked by the
+> UDP to NAD geometry, 16.39 A in 2B69 against 17.33 A after transforming.
+> So every ligand, including the natural ligands used as the positive
+> control, was docked against a partly blocked pocket, and the corrected
+> box was centred on space the receptor occupies.
+>
+> This does not overturn the finding, and it does mean the finding is not
+> yet established. The re-test uses PDB 2B69, human UXS1 at 1.21 A with
+> NAD and UDP both bound, so the site is already in the conformation that
+> holds the ligand and nothing has to be superposed. Until that run is
+> in, treat the conclusion here as pending rather than settled.
+
+
 Run 2026-11-16 to 2026-11-17. 2,757 approved small molecules docked
 against the UXS1 substrate site, scaling up the 100 compound pilot.
 
