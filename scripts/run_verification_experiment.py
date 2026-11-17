@@ -22,6 +22,7 @@ Three questions, which are not the same question.
 Writes results/verification-experiment.json
 """
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -29,6 +30,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from verify import Context, RuleBackend
+from verify.backends import make_backend
 from verify.agents import specialists
 from verify.latency import CountingBackend, SlowBackend
 from verify.orchestrator import (run_decomposed, run_flat_parallel,
@@ -43,8 +45,18 @@ RANKINGS = [
 MODES = [run_single_pass, run_decomposed, run_flat_parallel]
 REPEATS = 20
 
-report = {"backend": "rules", "repeats": REPEATS, "runs": []}
-backend = RuleBackend()
+BACKEND = os.environ.get("VERIFY_BACKEND", "rules")
+if "--backend" in sys.argv:
+    BACKEND = sys.argv[sys.argv.index("--backend") + 1]
+backend = make_backend(BACKEND)
+print(f"backend: {backend.name}")
+if BACKEND != "rules":
+    print("Every number in docs/verification-layer.md came from the rules\n"
+          "backend. This run is yours, and it costs money. Results go to\n"
+          f"results/verification-experiment-{BACKEND}.json so they do not\n"
+          "overwrite the committed ones.")
+
+report = {"backend": backend.name, "repeats": REPEATS, "runs": []}
 
 # ----------------------------------------------------------- 1 detection
 for label, path in RANKINGS:
@@ -117,23 +129,29 @@ report["work_balance"] = {"per_agent": per, "sequential": total,
                           "agent_level_ceiling": total / slowest,
                           "judgment_level_ceiling": float(total)}
 
-print("\n--- cost per check against wall clock ---")
-print(f"  {'per check':>10} {'single':>10} {'by agent':>10} "
-      f"{'by judgment':>12} {'best':>8}")
-sweep = []
-for ms in (0, 1, 10, 50, 100, 500):
-    b = RuleBackend() if ms == 0 else SlowBackend(RuleBackend(), ms / 1000)
-    n = 3 if ms < 100 else 1
-    s = min(run_single_pass(ctx, b)["seconds"] for _ in range(n))
-    d = min(run_decomposed(ctx, b)["seconds"] for _ in range(n))
-    f = min(run_flat_parallel(ctx, b)["seconds"] for _ in range(n))
-    sweep.append({"per_check_ms": ms, "single_pass_s": s,
-                  "decomposed_s": d, "flat_parallel_s": f,
-                  "agent_level_speedup": s / d, "judgment_level_speedup": s / f})
-    print(f"  {ms:>8}ms {s * 1000:>9.1f}ms {d * 1000:>9.1f}ms "
-          f"{f * 1000:>11.1f}ms {s / f:>7.2f}x")
+if BACKEND != "rules":
+    print("\n--- skipping the latency sweep: it simulates cost with sleep,\n    which is pointless when every call already costs real time ---")
+    sweep = []
+else:
+    print("\n--- cost per check against wall clock ---")
+    print(f"  {'per check':>10} {'single':>10} {'by agent':>10} "
+          f"{'by judgment':>12} {'best':>8}")
+    sweep = []
+    for ms in (0, 1, 10, 50, 100, 500):
+        b = RuleBackend() if ms == 0 else SlowBackend(RuleBackend(), ms / 1000)
+        n = 3 if ms < 100 else 1
+        s = min(run_single_pass(ctx, b)["seconds"] for _ in range(n))
+        d = min(run_decomposed(ctx, b)["seconds"] for _ in range(n))
+        f = min(run_flat_parallel(ctx, b)["seconds"] for _ in range(n))
+        sweep.append({"per_check_ms": ms, "single_pass_s": s,
+                      "decomposed_s": d, "flat_parallel_s": f,
+                      "agent_level_speedup": s / d, "judgment_level_speedup": s / f})
+        print(f"  {ms:>8}ms {s * 1000:>9.1f}ms {d * 1000:>9.1f}ms "
+              f"{f * 1000:>11.1f}ms {s / f:>7.2f}x")
 report["latency_sweep"] = sweep
 
-out = ROOT / "results" / "verification-experiment.json"
+name = ("verification-experiment.json" if BACKEND == "rules"
+        else f"verification-experiment-{BACKEND}.json")
+out = ROOT / "results" / name
 out.write_text(json.dumps(report, indent=2) + "\n")
 print(f"\nwritten to {out.relative_to(ROOT)}")

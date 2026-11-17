@@ -32,3 +32,7 @@ screening-full-uxs1/logs/*.log
 !screening-full-uxs1/logs/*.clean.log
 screening-full-uxs1/outputs/benchmark/
 screening-full-uxs1/outputs/ionized/
+
+# Cannot be pushed with this token (needs workflow scope). Add it through
+# the GitHub web UI instead; the file is kept locally as the source to paste.
+.github/

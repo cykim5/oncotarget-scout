@@ -188,3 +188,31 @@ Three limits, stated plainly:
 python3 scripts/run_verification_experiment.py   # the measured results above
 python3 -m pytest tests/test_verify.py -q        # including the regression test
 ```
+
+Nothing above needs an API key. **There is no model anywhere in the
+measured results.** The specialists are Python functions and the
+judgments are thresholds written in `scripts/verify/backends.py`. The
+architecture is agent shaped, meaning the work is decomposed, each part
+has its own tools, the parts run in parallel and one part reads the
+others, but nothing in it reasons.
+
+### Adding a model later
+
+One flag, no edit:
+
+```bash
+export ANTHROPIC_API_KEY=...        # or NEBIUS_API_KEY
+python3 scripts/run_verification_experiment.py --backend llm
+```
+
+It picks the provider from whichever key is set, writes to
+`results/verification-experiment-llm.json` so the committed numbers are
+not overwritten, and skips the latency sweep, which simulates cost with
+`sleep` and is meaningless once every call costs real time.
+
+`VERIFY_MODEL` picks the model. The default is Claude Opus 5.5.
+`claude-haiku-5-5` costs about a cent for a whole run and is the more
+interesting test: if the cheapest model matches thresholds written by
+hand, that is the result worth reporting, and if it is less consistent
+than a threshold on the borderline CD274 case, that is worth reporting
+too.
