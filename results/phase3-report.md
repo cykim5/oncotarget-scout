@@ -1,5 +1,8 @@
 # Phase 3 report: the fifth layer, the time split, and the experiment plan
 
+> **Superseded on 2026-11-17.** The overall top 20 described below as "non-coding RNAs and genes without dependency coverage" was a defect, not an acceptable quirk. Renormalizing the weights over covered layers gives a gene with fewer layers a higher ceiling, so missing data was being rewarded. Phase 5 ranks only genes that have the dependency layer and reports the rest separately. See the README and `results/answer_key_check_corrected.md`. Everything else in this report, including the shortlist, is unchanged, because the shortlist already required dependency support.
+
+
 **In one sentence:** we added the single cell layer from CELLxGENE, which confirms that 19 of the 20 shortlist genes are active in the malignant cells themselves, rebuilt the ranking across all five layers (IMPDH2 enters, RPL6 leaves), ran the pre-committed time split check against DepMap 20Q2 (the top biology survives, SPRR1B does not), and wrote the validation plan naming the exact mutant cell lines to test the top five genes in. The shortlist is stable where it matters and the report says plainly where it is not.
 
 ## What Phase 3 adds

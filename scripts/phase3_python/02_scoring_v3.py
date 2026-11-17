@@ -61,6 +61,7 @@ Run from the repository root with the project venv:
 
 import gc
 import json
+import sys
 from pathlib import Path
 
 import matplotlib
@@ -70,6 +71,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from scoring_core import scale01, weighted_score  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / "data" / "raw" / "xena"
@@ -91,18 +95,11 @@ N_COX = 500
 DEP_ESSENTIALITY_GATE = -0.5  # mean Chronos in mutant lung lines
 
 
-def scale01(s: pd.Series) -> pd.Series:
-    lo, hi = s.min(), s.max()
-    if pd.isna(lo) or hi == lo:
-        return s * np.nan
-    return (s - lo) / (hi - lo)
-
-
-def weighted_score(df, weights):
-    """Renormalized weighted mean over covered (non-NaN) layers."""
-    num = sum(weights[k] * df[k].fillna(0) for k in weights)
-    den = sum(weights[k] * df[k].notna() for k in weights)
-    return num / den.replace(0, np.nan)
+# scale01 and weighted_score live in scripts/scoring_core.py so that the
+# pipeline and the tests in tests/ use the same code. Renormalizing over
+# covered layers describes one gene correctly and ranks genes against
+# each other incorrectly, because fewer layers means a higher ceiling.
+# 07_corrected_ranking.py applies the ranking rule that fixes that.
 
 
 # ------------------------------------------------------------------ layers
