@@ -89,6 +89,61 @@ Meanwhile approved oral drugs are overwhelmingly neutral and lipophilic.
 They are rewarded for burying hydrophobic surface, which this scoring
 function counts generously. The screen was always going to favour them.
 
+## Could the protocol be fixed? Three repairs tested, none passes
+
+Before concluding that docking cannot work on this site, the three
+cheapest explanations for the failed control were tested one at a time,
+against the same size matched decoy set each time, so the percentiles
+compare directly.
+
+**The box.** Re-centring on the crystallographic ligand moved the
+substrate from the 31.9th to the 58.3rd percentile. A real improvement,
+and the largest single one, which is another way of saying the original
+box was the biggest single error in the screen.
+
+**The scoring function.** Vinardo weights polar contacts differently
+from Vina, which is the obvious thing to try on a charged ligand. In the
+corrected box it put the substrate at the 44.2nd percentile, worse than
+Vina. 200 decoys were re-docked with each function to get this.
+
+**The protonation state.** Every prepared natural ligand summed to a net
+partial charge of about zero, so the phosphates and the carboxylate had
+been modelled protonated. At physiological pH UDP-glucuronate carries
+about -3. Deprotonating the acidic groups in place, keeping the docked
+geometry, and re-running both functions gave the best result of the
+whole exercise: 67.3rd percentile with Vina, 78.9th with Vinardo.
+
+| Condition | UDP-glucuronate score | Percentile |
+| --- | --- | --- |
+| Vina, original box, neutral | -7.337 | 31.9 |
+| Vinardo, corrected box, neutral | -5.258 | 44.2 |
+| Vina, corrected box, neutral | -7.938 | 58.3 |
+| Vina, corrected box, ionized | -8.138 | 67.3 |
+| **Vinardo, corrected box, ionized** | **-6.008** | **78.9** |
+
+So the repairs worked, in the sense that each one moved the number in a
+direction that makes physical sense, and together they roughly halved
+the error. The substrate still loses to 42 of 199 random approved drugs.
+The bar set in advance was the top few percent. 78.9 is not that.
+
+Two details make it worse rather than better. The order of the five
+natural ligands reshuffles almost completely between conditions. UDP
+goes from the 13.6th percentile to the 58.3rd on protonation state
+alone, and UDP-galactose moves the wrong way in both functions. A
+protocol whose ranking of five closely related molecules is that
+unstable is not measuring the thing it is supposed to measure. And
+UDP-xylose, the product, which looked like the one confident result at
+93.2 in the original box, sits between the 37th and 54th percentile once
+the box is right. That number was the misplaced box as well.
+
+The conclusion is the one worth writing down once: this site is not
+amenable to empirical scoring function docking at the level of
+discrimination needed to pick compounds. Not because the software was
+used badly, since the three obvious errors were found and corrected, but
+because a deeply buried, strongly anionic, highly polar substrate site
+is the case these functions are known to be worst at, and the correction
+needed is larger than anything a box or a weighting change provides.
+
 ## The observation that did not survive
 
 The sulfonylureas looked like the one thing worth keeping. Glyburide,

@@ -30,3 +30,5 @@ screening-full-uxs1/outputs/redock/
 screening-full-uxs1/outputs/recentred/
 screening-full-uxs1/logs/*.log
 !screening-full-uxs1/logs/*.clean.log
+screening-full-uxs1/outputs/benchmark/
+screening-full-uxs1/outputs/ionized/

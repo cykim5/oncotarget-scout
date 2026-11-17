@@ -1,0 +1,11 @@
+id,sf,formal_charge,score_neutral,score_ionized
+UDP-glucuronate,vina,-3,-7.938,-8.138
+UDP-glucuronate,vinardo,-3,-5.258,-6.008
+UDP-xylose,vina,-2,-7.296,-7.824
+UDP-xylose,vinardo,-2,-5.094,-5.26
+UDP,vina,-3,-6.96,-7.813
+UDP,vinardo,-3,-5.554,-5.178
+UDP-galactose,vina,-2,-7.866,-7.75
+UDP-galactose,vinardo,-2,-5.337,-4.847
+UMP,vina,-2,-6.984,-7.298
+UMP,vinardo,-2,-4.707,-5.65

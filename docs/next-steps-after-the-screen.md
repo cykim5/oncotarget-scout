@@ -97,27 +97,35 @@ better options, in order of how well they fit the site:
   a biophysical assay rather than docking, which brings us to the next
   point.
 
-### 4. Any further docking needs a protocol that passes its controls
+### 4. Do not try to fix the docking. It has been tried.
 
-The rule should be fixed in advance: a protocol is only used to rank
-compounds once the native ligands sit in the top few percent of a size
-matched decoy set. Current status, Vina in the original box, is the
-substrate at the 32nd percentile.
+The rule was fixed in advance: a protocol is only used to rank compounds
+once the native ligands sit in the top few percent of a size matched
+decoy set. Three repairs have now been tested against that bar.
 
-Things to try, cheapest first:
+| Condition | Substrate percentile |
+| --- | --- |
+| Vina, original box, neutral ligands | 31.9 |
+| Vinardo, corrected box, neutral | 44.2 |
+| Vina, corrected box, neutral | 58.3 |
+| Vina, corrected box, ionized | 67.3 |
+| Vinardo, corrected box, ionized | 78.9 |
 
-- **Vinardo** rather than Vina. Different weighting of polar contacts.
-  Benchmark running now in `benchmark_scoring.py`.
-- **The corrected box**, centred on the crystallographic ligand.
-- **Charge aware preparation.** Check that the phosphates are modelled
-  as ionized at physiological pH. If the natural ligands were prepared
-  neutral, that alone could explain much of the failure.
-- **Rescoring top poses** with a method that treats desolvation
-  explicitly, which is slower but only needs to run on a shortlist.
+Every repair helped, and the best combination still leaves the enzyme's
+own substrate losing to 42 of 199 random approved drugs. The five
+natural ligands also reorder almost arbitrarily between conditions,
+which says the remaining signal is not reliable even where the number
+looks better.
 
-If none of these lifts the native ligands into the top few percent, the
-honest conclusion is that this site is not amenable to empirical scoring
-docking, and that is worth stating once rather than working around.
+What is left to try is not cheap: explicit solvent free energy methods,
+or a physics based rescoring that models desolvation of a trianion
+properly. Those are weeks of work and a different skill set, and they
+would be spent making a prediction that a single binding assay would
+settle in an afternoon. That is the wrong trade for this project.
+
+So the decision is to stop here rather than keep tuning. If a compound
+ever needs to be prioritized against this site, the route is an assay,
+not a better scoring function.
 
 ### 5. What not to do
 
