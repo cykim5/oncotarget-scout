@@ -1,0 +1,333 @@
+{
+  "backend": "rules",
+  "repeats": 20,
+  "runs": [
+    {
+      "ranking": "before the fix",
+      "file": "results/tables/target_scores_phase3.csv",
+      "mode": "single-pass",
+      "workers": 1,
+      "seconds": 0.00551283301319927,
+      "findings": [
+        {
+          "agent": "layer-balance",
+          "severity": "critical",
+          "claim": "the top 20 is missing the dependency layer far more often than the ranked population is",
+          "evidence": "0 of the top 20 carry dependency, against 59.0 percent of the ranked population, p=1.81e-08",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "layer_depletion"
+          ]
+        },
+        {
+          "agent": "layer-balance",
+          "severity": "critical",
+          "claim": "the top 20 is missing the malignant_share layer far more often than the ranked population is",
+          "evidence": "1 of the top 20 carry malignant_share, against 46.3 percent of the ranked population, p=7.26e-05",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "layer_depletion"
+          ]
+        },
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "EGFR is an approved target in this disease and sits at the 81.7th percentile",
+          "evidence": "rank 5182 of 28328",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        },
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "KRAS is an approved target in this disease and sits at the 85.5th percentile",
+          "evidence": "rank 4104 of 28328",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        },
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "CD274 is an approved target in this disease and sits at the 65.8th percentile",
+          "evidence": "rank 9694 of 28328",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        }
+      ]
+    },
+    {
+      "ranking": "before the fix",
+      "file": "results/tables/target_scores_phase3.csv",
+      "mode": "decomposed",
+      "workers": 4,
+      "seconds": 0.0057793750311248004,
+      "findings": [
+        {
+          "agent": "layer-balance",
+          "severity": "critical",
+          "claim": "the top 20 is missing the dependency layer far more often than the ranked population is",
+          "evidence": "0 of the top 20 carry dependency, against 59.0 percent of the ranked population, p=1.81e-08",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "layer_depletion"
+          ]
+        },
+        {
+          "agent": "layer-balance",
+          "severity": "critical",
+          "claim": "the top 20 is missing the malignant_share layer far more often than the ranked population is",
+          "evidence": "1 of the top 20 carry malignant_share, against 46.3 percent of the ranked population, p=7.26e-05",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "layer_depletion"
+          ]
+        },
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "EGFR is an approved target in this disease and sits at the 81.7th percentile",
+          "evidence": "rank 5182 of 28328",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        },
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "KRAS is an approved target in this disease and sits at the 85.5th percentile",
+          "evidence": "rank 4104 of 28328",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        },
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "CD274 is an approved target in this disease and sits at the 65.8th percentile",
+          "evidence": "rank 9694 of 28328",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        },
+        {
+          "agent": "cross-check",
+          "severity": "critical",
+          "claim": "two independent checks fail together, which points at one cause in how the score is built rather than at the data",
+          "evidence": "the top of the list is depleted of dependency, malignant_share, and the known targets CD274, EGFR, KRAS rank far below where established biology puts them; a score that lets a gene rank without a layer will rank genes that lack it above genes that have it",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "layer_depletion",
+            "answer_key_position"
+          ]
+        }
+      ]
+    },
+    {
+      "ranking": "before the fix",
+      "file": "results/tables/target_scores_phase3.csv",
+      "mode": "flat-parallel",
+      "workers": 12,
+      "seconds": 0.005650792038068175,
+      "findings": [
+        {
+          "agent": "layer-balance",
+          "severity": "critical",
+          "claim": "the top 20 is missing the dependency layer far more often than the ranked population is",
+          "evidence": "0 of the top 20 carry dependency, against 59.0 percent of the ranked population, p=1.81e-08",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "layer_depletion"
+          ]
+        },
+        {
+          "agent": "layer-balance",
+          "severity": "critical",
+          "claim": "the top 20 is missing the malignant_share layer far more often than the ranked population is",
+          "evidence": "1 of the top 20 carry malignant_share, against 46.3 percent of the ranked population, p=7.26e-05",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "layer_depletion"
+          ]
+        },
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "EGFR is an approved target in this disease and sits at the 81.7th percentile",
+          "evidence": "rank 5182 of 28328",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        },
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "KRAS is an approved target in this disease and sits at the 85.5th percentile",
+          "evidence": "rank 4104 of 28328",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        },
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "CD274 is an approved target in this disease and sits at the 65.8th percentile",
+          "evidence": "rank 9694 of 28328",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        },
+        {
+          "agent": "cross-check",
+          "severity": "critical",
+          "claim": "two independent checks fail together, which points at one cause in how the score is built rather than at the data",
+          "evidence": "the top of the list is depleted of dependency, malignant_share, and the known targets CD274, EGFR, KRAS rank far below where established biology puts them; a score that lets a gene rank without a layer will rank genes that lack it above genes that have it",
+          "where": "results/tables/target_scores_phase3.csv",
+          "tools_used": [
+            "layer_depletion",
+            "answer_key_position"
+          ]
+        }
+      ]
+    },
+    {
+      "ranking": "after the fix",
+      "file": "results/tables/target_scores_phase3_corrected.csv",
+      "mode": "single-pass",
+      "workers": 1,
+      "seconds": 0.005244250001851469,
+      "findings": [
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "CD274 is an approved target in this disease and sits at the 72.1th percentile",
+          "evidence": "rank 4656 of 16711",
+          "where": "results/tables/target_scores_phase3_corrected.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        }
+      ]
+    },
+    {
+      "ranking": "after the fix",
+      "file": "results/tables/target_scores_phase3_corrected.csv",
+      "mode": "decomposed",
+      "workers": 4,
+      "seconds": 0.005532333045266569,
+      "findings": [
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "CD274 is an approved target in this disease and sits at the 72.1th percentile",
+          "evidence": "rank 4656 of 16711",
+          "where": "results/tables/target_scores_phase3_corrected.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        }
+      ]
+    },
+    {
+      "ranking": "after the fix",
+      "file": "results/tables/target_scores_phase3_corrected.csv",
+      "mode": "flat-parallel",
+      "workers": 12,
+      "seconds": 0.005533832998480648,
+      "findings": [
+        {
+          "agent": "controls",
+          "severity": "critical",
+          "claim": "CD274 is an approved target in this disease and sits at the 72.1th percentile",
+          "evidence": "rank 4656 of 16711",
+          "where": "results/tables/target_scores_phase3_corrected.csv",
+          "tools_used": [
+            "answer_key_position"
+          ]
+        }
+      ]
+    }
+  ],
+  "detection": {
+    "critical_before": 6,
+    "critical_after": 1,
+    "surviving_after": [
+      "CD274 is an approved target in this disease and sits at the 72.1th percentile"
+    ]
+  },
+  "only_in_decomposed": [
+    "two independent checks fail together, which points at one cause in how the score is built rather than at the data"
+  ],
+  "work_balance": {
+    "per_agent": {
+      "layer-balance": 5,
+      "controls": 4,
+      "card-fidelity": 0
+    },
+    "sequential": 9,
+    "busiest_specialist": 5,
+    "agent_level_ceiling": 1.8,
+    "judgment_level_ceiling": 9.0
+  },
+  "latency_sweep": [
+    {
+      "per_check_ms": 0,
+      "single_pass_s": 0.005587957974057645,
+      "decomposed_s": 0.005905082973185927,
+      "flat_parallel_s": 0.005913584027439356,
+      "agent_level_speedup": 0.9462962670349768,
+      "judgment_level_speedup": 0.9449359217911188
+    },
+    {
+      "per_check_ms": 1,
+      "single_pass_s": 0.017371583031490445,
+      "decomposed_s": 0.0070921669830568135,
+      "flat_parallel_s": 0.007164125039707869,
+      "agent_level_speedup": 2.4494041204883015,
+      "judgment_level_speedup": 2.4248017636775927
+    },
+    {
+      "per_check_ms": 10,
+      "single_pass_s": 0.12151725002331659,
+      "decomposed_s": 0.06565224996302277,
+      "flat_parallel_s": 0.022517000033985823,
+      "agent_level_speedup": 1.850922856288377,
+      "judgment_level_speedup": 5.396689161074107
+    },
+    {
+      "per_check_ms": 50,
+      "single_pass_s": 0.5065892920247279,
+      "decomposed_s": 0.27034533402184024,
+      "flat_parallel_s": 0.07137483300175518,
+      "agent_level_speedup": 1.8738599423498923,
+      "judgment_level_speedup": 7.09758987474297
+    },
+    {
+      "per_check_ms": 100,
+      "single_pass_s": 0.9610982500016689,
+      "decomposed_s": 0.5207219999865629,
+      "flat_parallel_s": 0.12692700000479817,
+      "agent_level_speedup": 1.8457031775620578,
+      "judgment_level_speedup": 7.572055196808693
+    },
+    {
+      "per_check_ms": 500,
+      "single_pass_s": 4.552898750000168,
+      "decomposed_s": 2.5235857910010964,
+      "flat_parallel_s": 0.5279156669857912,
+      "agent_level_speedup": 1.8041386848172303,
+      "judgment_level_speedup": 8.624291785079205
+    }
+  ]
+}

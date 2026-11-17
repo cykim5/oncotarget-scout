@@ -91,6 +91,20 @@ The screen failed its own positive control. Docked in the same box as the librar
 
 So the target stands and the docking route closes. The published biology is that losing UXS1 is what sensitizes these tumors, which points at a degrader or a knockdown rather than an active site inhibitor, and at a CRISPR experiment that needs no compound at all.
 
+## Checking the pipeline's own output
+
+The Phase 5 defect survived three phases of my own review, so Phase 6 asks whether an automated layer would have caught it. Three specialists with separate remits run in parallel, and a fourth reads their separate outputs and looks for one cause behind them.
+
+```bash
+python3 scripts/run_verification_experiment.py
+```
+
+Against the ranking as it stood before the fix, it raises six critical findings, including the one that matters: 0 of the top 20 carry the dependency layer against 59 percent of the population, p = 1.8e-08. Against the corrected ranking, one. That one is a false positive, it is left in deliberately, and `docs/verification-layer.md` explains why silencing it would be tuning the checker to the answer.
+
+The architecture result is the more interesting half, and it is not the flattering one. At rule speed, running the specialists in parallel is **slower** than running them in sequence, 0.94x, because thread setup costs more than the work. Once a check costs anything, where you cut the work matters more than whether you cut it: splitting by agent caps at 1.80x, which is exactly 9 judgments over a busiest specialist of 5, while splitting by judgment reaches 8.62x on the same checks, the same backend and the same threads.
+
+Full numbers, the GIL caveat, and what is simulated rather than measured: `docs/verification-layer.md`.
+
 ## Tests
 
 ```bash
@@ -145,6 +159,7 @@ Raw data files are not committed to this repository. `data/README.md` records th
 - Phase 3: single cell layer, time split check, reason cards, validation experiment plan. Complete.
 - Phase 4 (done, November 2026): druggability check on the top 5, AutoDock Vina docking of UXS1, and a virtual screen of every approved drug against it. The roadmap had reserved Phase 4 for an LLM interface that answers a biologist's question by citing the project's own tables. That is still a possible next step. The chemistry took the slot because the druggability check made UXS1 the first candidate worth testing against a real structure.
 - Phase 5 (done, November 2026): corrected the headline ranking so that genes with missing layers no longer outrank genes with complete evidence, and added tests for the scoring rules.
+- Phase 6 (done, November 2026): a verification layer over the pipeline's own output, with specialists that run in parallel and cross check each other, measured against a single pass on the defect Phase 5 fixed. `docs/verification-layer.md`.
 - Next: the CRISPR experiment in `docs/next-steps-after-the-screen.md`. It tests the claim the whole project rests on, and it needs no compound.
 
 ## Limits, stated plainly
