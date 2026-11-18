@@ -1,0 +1,60 @@
+id,name,heavy,score,le,pct,wall_margin,centroid_to_udp,site_residues_touched,site_fraction,nad_closest,smiles,charge,anionic_groups,basic_groups,clogp,grip_contacts,pains,verdict
+CHEMBL1621,PALIPERIDONE,31,-12.153,-0.392,100.0,6.42,1.94,18,1.0,2.3,Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2O,1,0,1,3.08,4,,"implausible: no anionic group, net positive (+1)"
+CHEMBL1423,PIMOZIDE,34,-12.137,-0.357,99.8,6.47,2.14,16,0.89,3.56,O=c1[nH]c2ccccc2n1C1CCN(CCCC(c2ccc(F)cc2)c2ccc(F)cc2)CC1,1,0,1,5.86,3,,"implausible: no anionic group, net positive (+1), lipophilic (clogP 5.86)"
+CHEMBL111,RIMONABANT,30,-11.99,-0.3997,99.7,6.98,2.55,17,0.94,3.44,Cc1c(C(=O)NN2CCCCC2)nn(-c2ccc(Cl)cc2Cl)c1-c1ccc(Cl)cc1,1,0,1,5.94,4,,"implausible: no anionic group, net positive (+1), lipophilic (clogP 5.94)"
+CHEMBL1200935,DARIFENACIN HYDROBROMIDE,32,-11.679,-0.365,99.5,6.87,2.11,18,1.0,3.22,Br.NC(=O)C(c1ccccc1)(c1ccccc1)[C@@H]1CCN(CCc2ccc3c(c2)CCO3)C1,1,0,1,3.96,4,,"implausible: no anionic group, net positive (+1)"
+CHEMBL1138,EZETIMIBE,30,-11.516,-0.3839,99.4,6.64,2.62,16,0.89,3.31,O=C1[C@H](CC[C@H](O)c2ccc(F)cc2)[C@@H](c2ccc(O)cc2)N1c1ccc(F)cc1,0,0,0,4.89,3,,"implausible: no anionic group, lipophilic (clogP 4.89)"
+CHEMBL2028663,DABRAFENIB,35,-11.509,-0.3288,99.2,4.55,3.65,16,0.89,2.96,CC(C)(C)c1nc(-c2cccc(NS(=O)(=O)c3c(F)cccc3F)c2F)c(-c2ccnc(N)n2)s1,0,0,0,5.36,4,,"implausible: no anionic group, lipophilic (clogP 5.36)"
+CHEMBL51,KETANSERIN,29,-11.45,-0.3948,99.4,6.82,2.33,17,0.94,3.42,O=C(c1ccc(F)cc1)C1CCN(CCn2c(=O)[nH]c3ccccc3c2=O)CC1,1,0,1,2.42,4,,"implausible: no anionic group, net positive (+1)"
+CHEMBL1375743,ZIPRASIDONE HYDROCHLORIDE,28,-11.409,-0.4075,99.3,6.23,2.24,17,0.94,2.63,Cl.O.O=C1Cc2cc(CCN3CCN(c4nsc5ccccc45)CC3)c(Cl)cc2N1,1,0,1,3.81,4,,"implausible: no anionic group, net positive (+1)"
+CHEMBL94454,MIZOLASTINE,32,-11.383,-0.3557,98.6,5.55,2.72,17,0.94,3.84,CN(c1nccc(=O)[nH]1)C1CCN(c2nc3ccccc3n2Cc2ccc(F)cc2)CC1,0,0,0,3.41,4,,implausible: no anionic group
+CHEMBL3989867,BICTEGRAVIR SODIUM,32,-11.243,-0.3513,98.4,6.4,2.18,17,0.94,3.37,O=C(NCc1c(F)cc(F)cc1F)c1cn2c(c([O-])c1=O)C(=O)N1[C@H]3CC[C@H](C3)O[C@@H]1C2.[Na+],0,0,0,1.0,4,,implausible: no anionic group
+CHEMBL1201207,BETAMETHASONE PHOSPHORIC ACID,32,-11.153,-0.3485,98.2,4.37,2.67,17,0.94,2.96,C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)COP(=O)(O)O,-1,1,0,2.01,4,,plausible
+CHEMBL3989871,AVACOPAN,42,-11.142,-0.2653,100.0,6.23,2.48,18,1.0,2.89,Cc1ccc(NC(=O)[C@H]2CCCN(C(=O)c3c(C)cccc3F)[C@H]2c2ccc(NC3CCCC3)cc2)cc1C(F)(F)F,0,0,0,8.05,4,,"implausible: no anionic group, lipophilic (clogP 8.05)"
+CHEMBL1623,MECLIZINE,28,-11.139,-0.3978,98.8,5.25,2.57,15,0.83,3.36,Cc1cccc(CN2CCN(C(c3ccccc3)c3ccc(Cl)cc3)CC2)c1,2,0,2,5.56,4,,"implausible: no anionic group, net positive (+2), lipophilic (clogP 5.56)"
+CHEMBL1200699,DOXYCYCLINE,32,-11.135,-0.348,97.9,7.64,2.55,14,0.78,3.74,C[C@H]1c2cccc(O)c2C(=O)C2=C(O)[C@]3(O)C(=O)C(C(N)=O)=C(O)[C@@H](N(C)C)[C@@H]3[C@@H](O)[C@@H]21.O,1,0,1,-0.35,4,,"implausible: no anionic group, net positive (+1)"
+CHEMBL1200991,CARBENICILLIN INDANYL SODIUM,35,-11.1,-0.3171,97.9,5.16,2.81,18,1.0,3.11,CC1(C)S[C@@H]2[C@H](NC(=O)C(C(=O)Oc3ccc4c(c3)CCC4)c3ccccc3)C(=O)N2[C@H]1C(=O)[O-].[Na+],-1,1,0,1.16,4,,plausible
+CHEMBL15023,TRIFLUPERIDOL,29,-11.09,-0.3824,98.4,6.67,1.33,18,1.0,3.33,O=C(CCCN1CCC(O)(c2cccc(C(F)(F)F)c2)CC1)c1ccc(F)cc1,1,0,1,4.79,4,,"implausible: no anionic group, net positive (+1), lipophilic (clogP 4.79)"
+CHEMBL270190,ALVIMOPAN,31,-11.09,-0.3577,97.7,6.17,2.98,17,0.94,3.37,C[C@H]1CN(C[C@H](Cc2ccccc2)C(=O)NCC(=O)O)CC[C@@]1(C)c1cccc(O)c1,0,1,1,3.05,4,,plausible
+CHEMBL1183717,ALMITRINE,35,-11.046,-0.3156,97.4,6.05,3.04,15,0.83,2.84,C=CCNc1nc(NCC=C)nc(N2CCN(C(c3ccc(F)cc3)c3ccc(F)cc3)CC2)n1,1,0,1,4.26,3,,"implausible: no anionic group, net positive (+1), lipophilic (clogP 4.26)"
+CHEMBL1466,DICUMAROL,25,-11.022,-0.4409,99.5,6.78,4.12,12,0.67,3.27,O=c1oc2ccccc2c(O)c1Cc1c(O)c2ccccc2oc1=O,0,0,0,2.9,4,,implausible: no anionic group
+CHEMBL1450,ATOVAQUONE,26,-11.02,-0.4238,99.1,6.67,1.92,16,0.89,3.29,O=C1C(O)=C([C@H]2CC[C@H](c3ccc(Cl)cc3)CC2)C(=O)c2ccccc21,0,0,0,5.51,4,quinone_A(370),"implausible: no anionic group, lipophilic (clogP 5.51), known frequent hitter (quinone_A(370))"
+CHEMBL1089318,OPICAPONE,27,-10.971,-0.4063,98.7,7.33,3.16,16,0.89,3.13,Cc1c(Cl)c(C)[n+]([O-])c(Cl)c1-c1noc(-c2cc(O)c(O)c([N+](=O)[O-])c2)n1,0,0,0,3.28,3,catechol_A(92),"implausible: no anionic group, known frequent hitter (catechol_A(92))"
+CHEMBL1237021,LURASIDONE,35,-10.958,-0.3131,97.2,6.14,3.8,12,0.67,3.42,O=C1[C@@H]2[C@H]3CC[C@H](C3)[C@@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(c2nsc3ccccc23)CC1,1,0,1,4.26,4,,"implausible: no anionic group, net positive (+1), lipophilic (clogP 4.26)"
+CHEMBL231068,FLIBANSERIN,28,-10.948,-0.391,97.8,6.49,2.81,15,0.83,3.33,O=c1[nH]c2ccccc2n1CCN1CCN(c2cccc(C(F)(F)F)c2)CC1,1,0,1,3.17,3,,"implausible: no anionic group, net positive (+1)"
+CHEMBL398435,TICAGRELOR,36,-10.939,-0.3039,97.1,4.43,3.93,17,0.94,3.32,CCCSc1nc(N[C@@H]2C[C@H]2c2ccc(F)c(F)c2)c2nnn([C@@H]3C[C@H](OCCO)[C@@H](O)[C@H]3O)c2n1,0,0,0,2.01,4,,implausible: no anionic group
+CHEMBL245807,OXYPHENISATINE,24,-10.937,-0.4557,99.3,8.62,1.32,15,0.83,7.88,O=C1Nc2ccccc2C1(c1ccc(O)cc1)c1ccc(O)cc1,0,0,0,3.38,3,,implausible: no anionic group
+CHEMBL3185229,MAGNESIUM CHLORIDE,1,-1.676,-1.676,,5.42,10.54,3,0.17,10.83,O.O.O.O.O.O.[Cl-].[Cl-].[Mg+2],0,0,0,-0.82,1,,"implausible: not drug like (0 C, 0 rings), no anionic group"
+CHEMBL2219640,STRONTIUM CHLORIDE,1,-1.195,-1.195,,5.59,10.82,0,0.0,10.75,[Cl-].[Cl-].[Sr+2],0,0,0,-0.38,0,,"implausible: inorganic salt or counterion, not drug like (0 C, 0 rings), no anionic group, no contact with the phosphate arginines"
+CHEMBL1141,POTASSIUM IODIDE,1,-1.107,-1.107,,6.45,8.25,2,0.11,11.76,[I-].[K+],0,0,0,-3.0,0,,"implausible: not drug like (0 C, 0 rings), no anionic group, no contact with the phosphate arginines"
+CHEMBL1201084,SODIUM IODIDE I 131,1,-1.107,-1.107,,6.45,8.25,2,0.11,11.76,[131I-].[Na+],0,0,0,-3.0,0,,"implausible: not drug like (0 C, 0 rings), no anionic group, no contact with the phosphate arginines"
+CHEMBL177367,SILVER NITRATE,4,-3.586,-0.8965,30.8,1.42,12.47,1,0.06,3.09,O=[N+]([O-])[O-].[Ag+],1,0,1,-0.24,1,,"implausible: not drug like (0 C, 0 rings), no anionic group, net positive (+1)"
+CHEMBL1200800,CALCIUM ACETATE,4,-3.328,-0.832,23.1,5.52,9.04,3,0.17,3.84,CC(=O)[O-].CC(=O)[O-].[Ca+2],-1,1,0,-1.24,1,,"implausible: not drug like (2 C, 0 rings)"
+CHEMBL3989756,TALC,3,-2.484,-0.828,,6.38,8.78,3,0.17,3.49,O.O=[Mg].O=[Mg].O=[Mg].O=[Si]=O.O=[Si]=O.O=[Si]=O.O=[Si]=O,0,0,0,-0.62,1,,"implausible: not drug like (0 C, 0 rings), no anionic group"
+CHEMBL3833409,HYDROTALCITE ANHYDROUS,4,-3.28,-0.82,19.2,5.54,9.25,3,0.17,3.54,O=C([O-])[O-].[Al+3].[Al+3].[Mg+2].[Mg+2].[Mg+2].[Mg+2].[Mg+2].[Mg+2].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-].[OH-],-2,2,0,-2.45,1,,"implausible: not drug like (1 C, 0 rings)"
+CHEMBL1200459,"POTASSIUM PHOSPHATE, DIBASIC",5,-4.054,-0.8108,41.4,8.47,5.41,6,0.33,5.99,O=P([O-])([O-])O.[K+].[K+],-3,3,0,-2.19,3,,"implausible: not drug like (0 C, 0 rings)"
+CHEMBL1200929,ZINC SULFATE,5,-3.92,-0.784,37.9,8.51,5.3,6,0.33,6.03,O=S(=O)([O-])[O-].[Zn+2],-2,2,0,-1.34,3,,"implausible: not drug like (0 C, 0 rings)"
+CHEMBL2096650,SODIUM THIOSULFATE,5,-3.626,-0.7252,31.0,5.36,8.9,3,0.17,3.51,O.O.O.O.O.O=S([O-])([O-])=S.[Na+].[Na+],0,0,0,-1.01,1,,"implausible: not drug like (0 C, 0 rings), no anionic group"
+CHEMBL754,FOSCARNET SODIUM,7,-5.047,-0.721,31.9,5.76,8.17,6,0.33,3.44,O=C([O-])P(=O)([O-])[O-].[Na+].[Na+].[Na+],-2,2,0,-2.76,3,,"implausible: not drug like (1 C, 0 rings)"
+CHEMBL2110978,METHIODAL,6,-4.262,-0.7103,21.4,8.71,5.66,7,0.39,5.94,O=S(=O)(O)CI,-1,1,0,0.27,3,,"implausible: not drug like (1 C, 0 rings)"
+CHEMBL2106907,METHIODAL SODIUM,6,-4.17,-0.695,17.9,8.95,5.49,6,0.33,6.0,O=S(=O)([O-])CI.[Na+],-1,1,0,-0.08,3,,"implausible: not drug like (1 C, 0 rings)"
+CHEMBL455917,CHLORAL HYDRATE,7,-4.752,-0.6789,26.6,4.85,9.0,4,0.22,3.38,OC(O)C(Cl)(Cl)Cl,0,0,0,0.67,2,,"implausible: not drug like (2 C, 0 rings), no anionic group"
+CHEMBL4594393,CALCIUM OXYBATE,7,-4.706,-0.6723,23.4,5.58,7.67,5,0.28,3.47,O=C([O-])CCCO.O=C([O-])CCCO.[Ca+2],-1,1,0,-1.49,3,,"implausible: not drug like (4 C, 0 rings)"
+CHEMBL1200630,CYSTEINE HYDROCHLORIDE,7,-4.469,-0.6384,16.0,4.01,8.64,5,0.28,2.96,Cl.N[C@@H](CS)C(=O)O,0,1,1,-0.67,2,,"implausible: not drug like (3 C, 0 rings)"
+CHEMBL21,SULFANILAMIDE,11,-6.95,-0.6318,76.8,6.61,6.99,7,0.39,3.09,Nc1ccc(S(N)(=O)=O)cc1,0,0,0,-0.08,4,,"implausible: not drug like (6 C, 1 rings), no anionic group"
+CHEMBL1200471,PYRITHIONE ZINC,8,-5.051,-0.6314,23.5,10.63,2.82,10,0.56,10.59,[O-][n+]1ccccc1[S-].[O-][n+]1ccccc1[S-].[Zn+2],0,0,0,1.56,1,,"implausible: not drug like (5 C, 1 rings), no anionic group"
+CHEMBL1533310,HISTAMINE DIHYDROCHLORIDE,8,-5.048,-0.631,22.8,5.94,7.47,7,0.39,3.1,Cl.Cl.NCCc1c[nH]cn1,1,0,1,-0.09,3,,"implausible: not drug like (5 C, 1 rings), no anionic group, net positive (+1)"
+CHEMBL2104095,CHOLINE SALICYLATE,10,-6.299,-0.6299,52.3,10.15,3.27,11,0.61,11.93,C[N+](C)(C)CCO.O=C([O-])c1ccccc1O,1,0,1,-0.32,1,,"implausible: not drug like (5 C, 0 rings), no anionic group, net positive (+1)"
+CHEMBL1200582,AMINOLEVULINIC ACID HYDROCHLORIDE,9,-5.616,-0.624,30.2,4.04,7.65,7,0.39,3.61,Cl.NCC(=O)CCC(=O)O,0,1,1,-0.62,3,,"implausible: not drug like (5 C, 0 rings)"
+CHEMBL1703,METFORMIN HYDROCHLORIDE,9,-5.615,-0.6239,29.6,7.01,6.34,8,0.44,3.52,CN(C)C(=N)NC(=N)N.Cl,0,0,0,-1.03,4,,"implausible: not drug like (4 C, 0 rings), no anionic group"
+CHEMBL1200782,DEXTROAMPHETAMINE ADIPATE,10,-6.205,-0.6205,46.8,10.41,2.0,9,0.5,10.5,C[C@H](N)Cc1ccccc1.O=C(O)CCCCC(=O)O,1,0,1,1.58,1,,"implausible: no anionic group, net positive (+1)"
+CHEMBL1200377,AMPHETAMINE ASPARTATE,10,-6.199,-0.6199,46.4,10.77,1.97,9,0.5,10.47,CC(N)Cc1ccccc1.NC(CC(=O)O)C(=O)O,1,0,1,1.58,1,,"implausible: no anionic group, net positive (+1)"
+CHEMBL108,CARBAMAZEPINE,18,-10.29,-0.5717,99.9,10.5,0.44,12,0.67,7.4,NC(=O)N1c2ccccc2C=Cc2ccccc21,0,0,0,3.39,2,,implausible: no anionic group
+CHEMBL6437,MIANSERIN,20,-10.224,-0.5112,98.9,10.34,1.29,15,0.83,7.93,CN1CCN2c3ccccc3Cc3ccccc3C2C1,1,0,1,3.08,3,,"implausible: no anionic group, net positive (+1)"
+CHEMBL1628233,FLUORESCEIN SODIUM,25,-10.925,-0.437,98.8,6.39,5.46,10,0.56,2.91,O=C([O-])c1ccccc1-c1c2ccc(=O)cc-2oc2cc([O-])ccc12.[Na+].[Na+],-1,1,0,2.0,4,,plausible
+CHEMBL1200609,PAROXETINE MESYLATE,24,-10.825,-0.451,98.7,7.42,1.56,16,0.89,4.57,CS(=O)(=O)O.Fc1ccc([C@@H]2CCNC[C@H]2COc2ccc3c(c2)OCO3)cc1,1,0,1,3.33,4,,"implausible: no anionic group, net positive (+1)"
+CHEMBL2104941,INDORAMIN HYDROCHLORIDE,26,-10.925,-0.4202,98.5,7.16,1.43,16,0.89,3.63,Cl.O=C(NC1CCN(CCc2c[nH]c3ccccc23)CC1)c1ccccc1,1,0,1,3.6,3,,"implausible: no anionic group, net positive (+1)"
+CHEMBL3608680,FEZOLINETANT,25,-10.909,-0.4364,98.5,5.7,1.87,16,0.89,3.23,Cc1nsc(-c2nnc3n2CCN(C(=O)c2ccc(F)cc2)[C@@H]3C)n1,0,0,0,2.46,4,,implausible: no anionic group
+CHEMBL1094636,NIRAPARIB,24,-10.742,-0.4476,98.5,7.03,1.97,16,0.89,3.43,NC(=O)c1cccc2cn(-c3ccc([C@@H]4CCCNC4)cc3)nc12,1,0,1,2.59,4,,"implausible: no anionic group, net positive (+1)"
+CHEMBL1716,CYPROHEPTADINE HYDROCHLORIDE,22,-10.578,-0.4808,98.5,9.26,1.21,15,0.83,7.94,CN1CCC(=C2c3ccccc3C=Cc3ccccc32)CC1.Cl,1,0,1,4.7,3,,"implausible: no anionic group, net positive (+1), lipophilic (clogP 4.7)"
+CHEMBL1201050,PEMIROLAST POTASSIUM,17,-9.598,-0.5646,98.5,9.34,0.69,15,0.83,7.28,Cc1cccn2c(=O)c(-c3nnn[n-]3)cnc12.[K+],-1,1,0,-0.19,4,,plausible
