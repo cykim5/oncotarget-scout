@@ -36,3 +36,5 @@ screening-full-uxs1/outputs/ionized/
 # Cannot be pushed with this token (needs workflow scope). Add it through
 # the GitHub web UI instead; the file is kept locally as the source to paste.
 .github/
+screening-2b69/outputs/*_out.pdbqt
+screening-2b69/screen.log
