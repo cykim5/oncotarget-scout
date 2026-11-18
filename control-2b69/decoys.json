@@ -1,0 +1,1009 @@
+{
+  "native_heavy": 37,
+  "window": [
+    31,
+    43
+  ],
+  "decoys": [
+    {
+      "id": "CHEMBL2219411",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2219411.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL941",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL941.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL14376",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL14376.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1601",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1601.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL2216870",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2216870.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL2005186",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2005186.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL1909298",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1909298.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1201752",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201752.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL260538",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL260538.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL189963",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL189963.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1201302",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201302.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL3545110",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3545110.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1983268",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1983268.pdbqt",
+      "heavy": 41
+    },
+    {
+      "id": "CHEMBL1513",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1513.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1446",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1446.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1200901",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200901.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL3353410",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3353410.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL4297509",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4297509.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL4297666",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4297666.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL1201081",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201081.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL5315122",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL5315122.pdbqt",
+      "heavy": 38
+    },
+    {
+      "id": "CHEMBL2364617",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2364617.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL1201219",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201219.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL215303",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL215303.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1517",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1517.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL6068336",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL6068336.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL4594292",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4594292.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL1414320",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1414320.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL4303525",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4303525.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL2105695",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2105695.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL1256987",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1256987.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL1456",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1456.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL87708",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL87708.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL6068400",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL6068400.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL4297503",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4297503.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL1287853",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1287853.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL206253",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL206253.pdbqt",
+      "heavy": 41
+    },
+    {
+      "id": "CHEMBL3291398",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3291398.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL3244648",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3244648.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL6068431",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL6068431.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1530428",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1530428.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1200845",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200845.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL3948730",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3948730.pdbqt",
+      "heavy": 42
+    },
+    {
+      "id": "CHEMBL2103830",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2103830.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL707",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL707.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1618",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1618.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1591",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1591.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1200515",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200515.pdbqt",
+      "heavy": 42
+    },
+    {
+      "id": "CHEMBL3936761",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3936761.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL1615374",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1615374.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL204656",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL204656.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL3707320",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3707320.pdbqt",
+      "heavy": 36
+    },
+    {
+      "id": "CHEMBL1183717",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1183717.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL3989866",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3989866.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1512",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1512.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL3707331",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3707331.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL1201321",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201321.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL2364638",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2364638.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL17157",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL17157.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL1951095",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1951095.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL454950",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL454950.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL2146063",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2146063.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1755",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1755.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL1095930",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1095930.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL305660",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL305660.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL5095056",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL5095056.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL499915",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL499915.pdbqt",
+      "heavy": 41
+    },
+    {
+      "id": "CHEMBL3989908",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3989908.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1201011",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201011.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL4297403",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4297403.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL3668014",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3668014.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL1201265",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201265.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL593",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL593.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL44657",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL44657.pdbqt",
+      "heavy": 42
+    },
+    {
+      "id": "CHEMBL576982",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL576982.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL4435170",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4435170.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1658",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1658.pdbqt",
+      "heavy": 38
+    },
+    {
+      "id": "CHEMBL989",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL989.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL180022",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL180022.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL1201138",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201138.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL1477",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1477.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL790",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL790.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL2105717",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2105717.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL192",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL192.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1200562",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200562.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1201746",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201746.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL2360464",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2360464.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL4596392",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4596392.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1187833",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1187833.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL186",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL186.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1650818",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1650818.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL344159",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL344159.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL1200975",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200975.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL1852688",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1852688.pdbqt",
+      "heavy": 38
+    },
+    {
+      "id": "CHEMBL4582651",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4582651.pdbqt",
+      "heavy": 39
+    },
+    {
+      "id": "CHEMBL2028663",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2028663.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL2106638",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2106638.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1241951",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1241951.pdbqt",
+      "heavy": 41
+    },
+    {
+      "id": "CHEMBL623",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL623.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1293",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1293.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL1404",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1404.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1200618",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200618.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL50588",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL50588.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL477772",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL477772.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL3989920",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3989920.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1339",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1339.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL376140",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL376140.pdbqt",
+      "heavy": 42
+    },
+    {
+      "id": "CHEMBL467058",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL467058.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1770916",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1770916.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL556",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL556.pdbqt",
+      "heavy": 39
+    },
+    {
+      "id": "CHEMBL584",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL584.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL1200953",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200953.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL1683",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1683.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1201271",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201271.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1073",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1073.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1336",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1336.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1171837",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1171837.pdbqt",
+      "heavy": 39
+    },
+    {
+      "id": "CHEMBL237500",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL237500.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL1201016",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201016.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL518520",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL518520.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL3301594",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3301594.pdbqt",
+      "heavy": 41
+    },
+    {
+      "id": "CHEMBL1697",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1697.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL787",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL787.pdbqt",
+      "heavy": 41
+    },
+    {
+      "id": "CHEMBL4802130",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4802130.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL1549",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1549.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL1201046",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201046.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL3545309",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3545309.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL1201349",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1201349.pdbqt",
+      "heavy": 38
+    },
+    {
+      "id": "CHEMBL1200561",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200561.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL4650272",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4650272.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1615372",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1615372.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL203321",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL203321.pdbqt",
+      "heavy": 38
+    },
+    {
+      "id": "CHEMBL1950576",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1950576.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL1116",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1116.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL3989939",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3989939.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL187709",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL187709.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL5189739",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL5189739.pdbqt",
+      "heavy": 41
+    },
+    {
+      "id": "CHEMBL1146",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1146.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL3039596",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3039596.pdbqt",
+      "heavy": 39
+    },
+    {
+      "id": "CHEMBL4594293",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4594293.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL1487",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1487.pdbqt",
+      "heavy": 41
+    },
+    {
+      "id": "CHEMBL1372950",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1372950.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1596",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1596.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL461101",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL461101.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1200768",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200768.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL702",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL702.pdbqt",
+      "heavy": 36
+    },
+    {
+      "id": "CHEMBL1200908",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200908.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL333826",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL333826.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL1417019",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1417019.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL2105842",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2105842.pdbqt",
+      "heavy": 39
+    },
+    {
+      "id": "CHEMBL3188267",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3188267.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL4208229",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4208229.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL3545376",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3545376.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1200342",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200342.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1537",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1537.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1289494",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1289494.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL295698",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL295698.pdbqt",
+      "heavy": 36
+    },
+    {
+      "id": "CHEMBL408",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL408.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1421",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1421.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1200965",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200965.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1280",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1280.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL539423",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL539423.pdbqt",
+      "heavy": 42
+    },
+    {
+      "id": "CHEMBL2107825",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2107825.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1200946",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200946.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL6068339",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL6068339.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1200859",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200859.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL1675",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1675.pdbqt",
+      "heavy": 38
+    },
+    {
+      "id": "CHEMBL929",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL929.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL328190",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL328190.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL2110732",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2110732.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1237021",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1237021.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL3545063",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3545063.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL4301162",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4301162.pdbqt",
+      "heavy": 36
+    },
+    {
+      "id": "CHEMBL1520",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1520.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL2048484",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2048484.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL161",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL161.pdbqt",
+      "heavy": 36
+    },
+    {
+      "id": "CHEMBL256907",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL256907.pdbqt",
+      "heavy": 37
+    },
+    {
+      "id": "CHEMBL3183451",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3183451.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1069",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1069.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1166",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1166.pdbqt",
+      "heavy": 35
+    },
+    {
+      "id": "CHEMBL472",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL472.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL2308885",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2308885.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1200962",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200962.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL522038",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL522038.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL1742466",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1742466.pdbqt",
+      "heavy": 36
+    },
+    {
+      "id": "CHEMBL4299940",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4299940.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL3545311",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL3545311.pdbqt",
+      "heavy": 40
+    },
+    {
+      "id": "CHEMBL4650485",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4650485.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL2403108",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2403108.pdbqt",
+      "heavy": 38
+    },
+    {
+      "id": "CHEMBL4594273",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL4594273.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL84",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL84.pdbqt",
+      "heavy": 31
+    },
+    {
+      "id": "CHEMBL1496",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1496.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL1200762",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200762.pdbqt",
+      "heavy": 32
+    },
+    {
+      "id": "CHEMBL1200881",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1200881.pdbqt",
+      "heavy": 33
+    },
+    {
+      "id": "CHEMBL2095206",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL2095206.pdbqt",
+      "heavy": 36
+    },
+    {
+      "id": "CHEMBL1259059",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1259059.pdbqt",
+      "heavy": 36
+    },
+    {
+      "id": "CHEMBL1296",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1296.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL841",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL841.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL1481",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL1481.pdbqt",
+      "heavy": 34
+    },
+    {
+      "id": "CHEMBL46740",
+      "pdbqt": "/Users/clairekim/oncotarget-scout-work/screening-full-uxs1/ligands/CHEMBL46740.pdbqt",
+      "heavy": 37
+    }
+  ]
+}

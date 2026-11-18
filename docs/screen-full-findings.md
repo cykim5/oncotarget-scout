@@ -1,5 +1,18 @@
 # Full approved drug screen against UXS1: what it found, and what it did not
 
+> **Withdrawn, 2026-11-17.** The re-test against PDB 2B69 is in, and the
+> conclusion below does not survive it. With a receptor whose pocket is
+> not blocked, the natural ligands move from the 30th, 55th and 58th
+> percentiles to the 99.5th, 99.0th and 88.4th, and the correlation
+> between score and molecular size collapses from rho -0.67 to +0.11.
+> The protocol goes from unusable to borderline, and the enrichment
+> failure that drove everything below was an artifact of docking into a
+> site the receptor's own backbone was occupying.
+>
+> Read [control-2b69-result.md](control-2b69-result.md) instead. What
+> stands below is the method and the arithmetic, not the conclusion.
+
+
 > **Correction, 2026-11-17.** The conclusion below rests on docking into
 > PDB 4GLL, and 4GLL was solved with NAD bound but no UDP. With the
 > substrate site empty, ARG272 relaxed into it: 14 of the 25 atoms of the
